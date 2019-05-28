@@ -1,0 +1,315 @@
+.layout {
+	width: $layout-width;
+
+	> header {
+		height: $layout-primary-header-height;
+	}
+	> footer {
+		min-height: $layout-primary-footer-height;
+	}
+
+	.layout-scroll {
+		overflow-x: scroll;
+		overflow-scrolling: touch;
+	}
+
+	&.layout-fit-header-content {
+		> div {
+			min-height: calc(100vh - #{$layout-primary-header-height});
+
+			&.layout-scroll, > .layout-scroll {
+				height: calc(100vh - #{$layout-primary-header-height});
+			}
+
+			&.layout-fit-header-content, > .layout-fit-header-content {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height});
+
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height});
+					}
+
+					&.layout-fit-content-footer {
+						> header {
+							height: $layout-secondary-header-height;
+						}
+						> footer {
+							min-height: $layout-secondary-footer-height;
+						}
+						> div {
+							min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+
+							&.layout-scroll {
+								height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+							}
+						}
+					}
+				}
+			}
+
+			&.layout-fit-content-footer, > .layout-fit-content-footer {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-footer-height});
+
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-footer-height});
+					}
+
+					&.layout-fit-header-content {
+						> header {
+							height: $layout-secondary-header-height;
+						}
+						> footer {
+							min-height: $layout-secondary-footer-height;
+						}
+						> div {
+							min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+
+							&.layout-scroll {
+								height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+							}
+						}
+					}
+				}
+			}
+
+			&.layout-fit-header-content-footer, > .layout-fit-header-content-footer {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+					}
+				}
+			}
+		}
+	}
+	&.layout-fit-content-footer {
+		> div {
+			min-height: calc(100vh - #{$layout-primary-footer-height});
+
+			&.layout-scroll, > .layout-scroll {
+				height: calc(100vh - #{$layout-primary-footer-height});
+			}
+
+			&.layout-fit-header-content, > .layout-fit-header-content {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
+
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
+						overflow-x: scroll;
+					}
+
+					&.layout-fit-header-content {
+						> header {
+							height: $layout-secondary-header-height;
+						}
+						> footer {
+							min-height: $layout-secondary-footer-height;
+						}
+						> div {
+							min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+
+							&.layout-scroll {
+								height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+								overflow-x: scroll;
+							}
+						}
+					}
+				}
+			}
+
+			&.layout-fit-content-footer, > .layout-fit-content-footer {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
+
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
+						overflow-x: scroll;
+					}
+
+					&.layout-fit-header-content {
+						> header {
+							height: $layout-secondary-header-height;
+						}
+						> footer {
+							min-height: $layout-secondary-footer-height;
+						}
+						> div {
+							min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+
+							&.layout-scroll {
+								height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+								overflow-x: scroll;
+							}
+						}
+					}
+				}
+			}
+
+			&.layout-fit-header-content-footer, > .layout-fit-header-content-footer {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+						overflow-x: scroll;
+					}
+				}
+			}
+		}
+	}
+	&.layout-fit-header-content-footer {
+		> div {
+			min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height});
+
+			&.layout-scroll {
+				height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height});
+				overflow-x: scroll;
+			}
+
+			> .layout-scroll {
+				height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height});
+				overflow-x: scroll;
+			}
+
+			> .layout-fit-header-content {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
+						overflow-x: scroll;
+					}
+				}
+			}
+			> .layout-fit-content-footer {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
+						overflow-x: scroll;
+					}
+				}
+			}
+			> .layout-fit-header-content-footer {
+				> header {
+					height: $layout-secondary-header-height;
+				}
+				> footer {
+					min-height: $layout-secondary-footer-height;
+				}
+				> div {
+					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+						overflow-x: scroll;
+					}
+				}
+			}
+		}
+	}
+
+
+	> .layout-side-main,
+	> .layout-main-side,
+	> .layout-side-main-side {
+		display: flex;
+		min-height: 100vh;
+		> .layout-fit-header-content {
+			> div {
+				min-height: calc(100vh - #{$layout-secondary-header-height});
+			}
+		}
+		> .layout-fit-content-footer {
+			> div {
+				min-height: calc(100vh - #{$layout-secondary-footer-height});
+			}
+		}
+		> .layout-fit-header-content-footer {
+			> div {
+				min-height: calc(100vh - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+			}
+		}
+	}
+
+
+	> .layout-side-main {
+		> *:nth-child(1) {
+			width: $layout-side-width;
+		}
+		> *:nth-child(2) {
+			flex: 1;
+		}
+	}
+	> .layout-main-side {
+		> *:nth-child(1) {
+			flex: 1;
+		}
+		> *:nth-child(2) {
+			width: $layout-side-width;
+		}
+	}
+	> .layout-side-main-side {
+		> *:nth-child(1) {
+			width: $layout-side-width;
+		}
+		> *:nth-child(2) {
+			flex: 1;
+		}
+		> *:nth-child(3) {
+			width: $layout-side-width;
+		}
+	}
+
+
+	.layout-padding {
+		padding: 27px 26px 30px;
+	}
+}

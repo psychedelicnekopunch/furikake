@@ -1,0 +1,25 @@
+{
+  "name": "samisys",
+  "version": "1.0.0",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psychedelicnekopunch/samisys.git"
+  },
+  "author": "psychedelicnekopunch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psychedelicnekopunch/samisys/issues"
+  },
+  "homepage": "https://github.com/psychedelicnekopunch/samisys#readme"
+}

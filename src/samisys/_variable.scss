@@ -1,0 +1,100 @@
+/**
+ * components
+ *
+ */
+
+// _button.scss
+$button-bg-color: #ddd;
+$button-bg-color-active: #eee;
+$button-font-color: #444;
+$button-font-color-active: #555;
+
+$button-primary-bg-color: #ddd;
+$button-primary-bg-color-active: #eee;
+$button-primary-font-color: #444;
+$button-primary-font-color-active: #555;
+
+$button-secondary-bg-color: #ddd;
+$button-secondary-bg-color-active: #eee;
+$button-secondary-font-color: #444;
+$button-secondary-font-color-active: #555;
+
+$button-default-bg-color: #ddd;
+$button-default-bg-color-active: #eee;
+$button-default-font-color: #444;
+$button-default-font-color-active: #555;
+
+$button-large-font-size: 20px;
+$button-medium-font-size: 14px;
+$button-small-font-size: 12px;
+
+
+// _card.scss
+$card-box-shadow: 0 0 3px 0 rgba(#000, .3);
+$card-border-radius: 3px;
+
+
+// _form.scss
+$input-bg-color: #f9f9f9;
+$input-font-color: #444;
+$input-font-size: 20px;
+
+
+// _layout.scss
+$layout-width: 100%;
+$layout-primary-header-height: 60px;
+$layout-primary-footer-height: 40px;
+$layout-secondary-header-height: 60px;
+$layout-secondary-footer-height: 40px;
+$layout-side-width: 200px;
+
+
+
+/**
+ * extends
+ *
+ */
+
+// _font-size.scss
+$text-font-xlarge  : 28px;
+$text-font-large   : 20px;
+$text-font-default : 16px;
+$text-font-small   : 15px;
+$text-font-xsmall  : 13px;
+
+$text-font-xlarge-app  : 22px;
+$text-font-large-app   : 18px;
+$text-font-default-app : 14px;
+$text-font-small-app   : 12px;
+$text-font-xsmall-app  : 11px;
+
+$line-height: 150%;
+
+
+// _color.scss
+$color-white           : #fff;
+$color-superlight-gray : #f9f9f9;
+$color-light-gray      : #f2f2f2;
+$color-gray            : #ddd;
+$color-dark-gray       : #999;
+$color-superdark-gray  : #666;
+$color-black           : #222;
+
+$color-light-red: #f9b;
+$color-red: #f79;
+
+$color-light-green: #9ca;
+$color-green: #7a8;
+
+$color-light-purple: #b9b;
+$color-purple: #979;
+
+
+/**
+ * includes
+ *
+ */
+
+// _media-query.scss
+$desktop: 550px;
+$tablet: 360px;

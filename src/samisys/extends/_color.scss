@@ -1,0 +1,36 @@
+/**
+ * [usage: example]
+ *
+ * h1 {
+ *    @extend .color-gray;
+ * }
+ */
+
+.color-white { color: $color-white; }
+.color-superlight-gray { color: $color-superlight-gray; }
+.color-light-gray { color: $color-light-gray; }
+.color-gray { color: $color-gray; }
+.color-dark-gray { color: $color-dark-gray; }
+.color-superlight-gray { color: $color-superlight-gray; }
+.color-black { color: $color-black; }
+
+.color-light-red { color: $color-light-red; }
+.color-red { color: $color-red; }
+
+
+.color-bg-white { background: $color-white; }
+.color-bg-superlight-gray { background: $color-superlight-gray; }
+.color-bg-light-gray { background: $color-light-gray; }
+.color-bg-gray { background: $color-gray; }
+.color-bg-dark-gray { background: $color-dark-gray; }
+.color-bg-superlight-gray { background: $color-superlight-gray; }
+.color-bg-black { background: $color-black; }
+
+.color-bg-light-red { background: $color-light-red; }
+.color-bg-red { background: $color-red; }
+
+.color-bg-light-green { background: $color-light-green; }
+.color-bg-green { background: $color-green; }
+
+.color-bg-light-purple { background: $color-light-purple; }
+.color-bg-purple { background: $color-purple; }

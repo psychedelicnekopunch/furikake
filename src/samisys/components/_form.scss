@@ -1,0 +1,28 @@
+.form {
+	width: 100%;
+	margin: auto;
+	input {
+		&[type=text],
+		&[type=password],
+		&[type=email] {
+			width: 100%;
+			background: $input-bg-color;
+			color: $input-font-color;
+			font-size: $input-font-size;
+			padding: 8px;
+			margin: 0 0 12px;
+		}
+	}
+	.form-error {
+		background: $color-red;
+		color: $color-white;
+		padding: 5px 8px;
+		margin: 10px 0;
+	}
+	.form-success {
+		background: $color-green;
+		color: $color-white;
+		padding: 5px 8px;
+		margin: 10px 0;
+	}
+}

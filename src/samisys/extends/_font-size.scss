@@ -1,0 +1,48 @@
+/**
+ * [usage: example]
+ *
+ * h1 {
+ *    @extend .font-default;
+ *    color: #f44;
+ * }
+ */
+
+.font-xlarge {
+	font-size: $text-font-xlarge;
+	line-height: $line-height;
+	@include mobile {
+		font-size: $text-font-xlarge-app;
+	}
+}
+
+.font-large {
+	font-size: $text-font-large;
+	line-height: $line-height;
+	@include mobile {
+		font-size: $text-font-large-app;
+	}
+}
+
+.font-default {
+	font-size: $text-font-default;
+	line-height: $line-height;
+	@include mobile {
+		font-size: $text-font-default-app;
+	}
+}
+
+.font-small {
+	font-size: $text-font-small;
+	line-height: $line-height;
+	@include mobile {
+		font-size: $text-font-small-app;
+	}
+}
+
+.font-xsmall {
+	font-size: $text-font-xsmall;
+	line-height: $line-height;
+	@include mobile {
+		font-size: $text-font-xsmall-app;
+	}
+}
