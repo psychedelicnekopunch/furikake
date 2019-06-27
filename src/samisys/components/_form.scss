@@ -1,17 +1,61 @@
 .form {
 	width: 100%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	input {
 		&[type=text],
 		&[type=password],
-		&[type=email] {
+		&[type=email],
+		&[type=number] {
+			@extend .font-default;
 			width: 100%;
 			background: $input-bg-color;
 			color: $input-font-color;
-			font-size: $input-font-size;
+			border: $input-border;
 			padding: 8px;
 			margin: 0 0 12px;
 		}
+	}
+	textarea {
+		@extend .font-default;
+		width: 100%;
+		min-height: 150px;
+		background: $input-bg-color;
+		color: $input-font-color;
+		border: $input-border;
+		padding: 8px;
+		margin: 0 0 12px;
+		resize: vertical;
+	}
+	label {
+		display: inline-block;
+		margin: 0 10px 10px 0;
+		cursor: pointer;
+		> ul {
+			display: flex;
+			border: $input-border;
+			// padding: 6px 8px;
+			padding: 12px 14px;
+			> li {
+				padding-right: 5px;
+				&:last-child {
+					padding-right: 0px;
+				}
+			}
+		}
+	}
+	select {
+		margin-bottom: 12px;
+	}
+	.form-input {
+		@extend .font-default;
+		width: 100%;
+		background: $input-bg-color;
+		text-align: left;
+		color: $input-font-color;
+		border: $input-border;
+		padding: 8px;
+		margin: 0 0 12px;
 	}
 	.form-error {
 		background: $color-red;
@@ -24,5 +68,19 @@
 		color: $color-white;
 		padding: 5px 8px;
 		margin: 10px 0;
+	}
+	.form-title {
+		@extend .font-small;
+		color: $color-dark-gray;
+		// color: $color-superdark-gray;
+		padding-bottom: 3px;
+	}
+	ul.form-list {
+		> li {
+			padding-bottom: 10px;
+			&:last-child {
+				padding-bottom: 0;
+			}
+		}
 	}
 }

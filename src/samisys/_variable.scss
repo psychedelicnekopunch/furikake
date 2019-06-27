@@ -4,25 +4,25 @@
  */
 
 // _button.scss
-$button-bg-color: #ddd;
-$button-bg-color-active: #eee;
-$button-font-color: #444;
-$button-font-color-active: #555;
+$button-bg-color: $color-gray-60;
+$button-bg-color-active: $color-gray-70;
+$button-font-color: $color-gray-10;
+$button-font-color-active: $color-gray-20;
 
-$button-primary-bg-color: #ddd;
-$button-primary-bg-color-active: #eee;
-$button-primary-font-color: #444;
-$button-primary-font-color-active: #555;
+$button-primary-bg-color: $color-gray-0;
+$button-primary-bg-color-active: $color-gray-10;
+$button-primary-font-color: $color-gray-90;
+$button-primary-font-color-active: $color-gray-100;
 
-$button-secondary-bg-color: #ddd;
-$button-secondary-bg-color-active: #eee;
-$button-secondary-font-color: #444;
-$button-secondary-font-color-active: #555;
+$button-secondary-bg-color: $color-gray-60;
+$button-secondary-bg-color-active: $color-gray-70;
+$button-secondary-font-color: $color-gray-10;
+$button-secondary-font-color-active: $color-gray-20;
 
-$button-default-bg-color: #ddd;
-$button-default-bg-color-active: #eee;
-$button-default-font-color: #444;
-$button-default-font-color-active: #555;
+$button-default-bg-color: $color-gray-80;
+$button-default-bg-color-active: $color-gray-90;
+$button-default-font-color: $color-gray-10;
+$button-default-font-color-active: $color-gray-20;
 
 $button-large-font-size: 20px;
 $button-medium-font-size: 14px;
@@ -30,23 +30,23 @@ $button-small-font-size: 12px;
 
 
 // _card.scss
-$card-box-shadow: 0 0 3px 0 rgba(#000, .3);
+$card-box-shadow: 0 0 3px 0 rgba($color-gray-0, .3);
 $card-border-radius: 3px;
 
 
 // _form.scss
-$input-bg-color: #f9f9f9;
-$input-font-color: #444;
-$input-font-size: 20px;
+$input-bg-color: $color-gray-90;
+$input-font-color: $color-gray-10;
+$input-border: 0;
 
 
 // _layout.scss
 $layout-width: 100%;
 $layout-primary-header-height: 60px;
 $layout-primary-footer-height: 40px;
-$layout-secondary-header-height: 60px;
+$layout-secondary-header-height: 70px;
 $layout-secondary-footer-height: 40px;
-$layout-side-width: 200px;
+$layout-side-width: 250px;
 
 
 
@@ -71,23 +71,24 @@ $text-font-xsmall-app  : 11px;
 $line-height: 150%;
 
 
-// _color.scss
-$color-white           : #fff;
-$color-superlight-gray : #f9f9f9;
-$color-light-gray      : #f2f2f2;
-$color-gray            : #ddd;
-$color-dark-gray       : #999;
-$color-superdark-gray  : #666;
-$color-black           : #222;
+//// _color.scss
+$color-white           : $color-gray-100;
+$color-superlight-gray : $color-gray-90;
+$color-light-gray      : $color-gray-80;
+$color-gray            : $color-gray-60;
+$color-dark-gray       : $color-gray-30;
+$color-superdark-gray  : $color-gray-20;
+$color-black           : $color-gray-0;
 
-$color-light-red: #f9b;
-$color-red: #f79;
+$color-light-red: $color-red-50;
+$color-red: $color-red-40;
 
-$color-light-green: #9ca;
-$color-green: #7a8;
+$color-light-green: $color-green-50;
+$color-green: $color-green-40;
 
-$color-light-purple: #b9b;
-$color-purple: #979;
+$color-light-purple: $color-purple-50;
+$color-purple: $color-purple-40;
+
 
 
 /**

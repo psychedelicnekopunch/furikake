@@ -1,0 +1,50 @@
+.md {
+	h1 {
+		@extend .font-xlarge;
+		font-weight: 300;
+		padding-bottom: 8px;
+	}
+	h2 {
+		@extend .font-large;
+		font-weight: 300;
+		padding-bottom: 8px;
+	}
+	h3 {
+		@extend .font-large;
+		color: $color-superdark-gray;
+		font-weight: 300;
+		padding-bottom: 8px;
+	}
+	h4 {
+		@extend .font-default;
+		font-weight: 300;
+		padding-bottom: 8px;
+	}
+	h5 {
+		@extend .font-default;
+		font-weight: 300;
+		padding-bottom: 8px;
+	}
+	p {
+		@extend .font-small;
+		color: $color-dark-gray;
+		padding-bottom: 24px;
+	}
+	ul, ol {
+		padding: 0 18px;
+		margin-top: 8px;
+		margin-bottom: 24px;
+		color: $color-superdark-gray;
+	}
+	ul > li {
+		list-style-type: disc;
+	}
+	ol > li {
+		list-style-type: decimal;
+	}
+	a {
+		&:hover, &:active {
+			text-decoration: underline;
+		}
+	}
+}

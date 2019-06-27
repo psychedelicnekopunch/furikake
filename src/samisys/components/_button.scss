@@ -1,7 +1,8 @@
-a.button, button.button {
+a.button, button.button, div.button {
 
 	display: inline-block;
 	border: 0;
+	cursor: pointer;
 
 	&.primary {
 		background: $button-primary-bg-color;
