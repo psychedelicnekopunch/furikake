@@ -1,29 +1,25 @@
 .md {
+	h1, h2, h3, h4, h5, h6 {
+		color: unset;
+		font-weight: 300;
+		padding-bottom: 12px;
+		margin-top: 30px;
+	}
 	h1 {
 		@extend .font-xlarge;
-		font-weight: 300;
-		padding-bottom: 8px;
 	}
 	h2 {
 		@extend .font-large;
-		font-weight: 300;
-		padding-bottom: 8px;
 	}
 	h3 {
 		@extend .font-large;
 		color: $color-superdark-gray;
-		font-weight: 300;
-		padding-bottom: 8px;
 	}
 	h4 {
 		@extend .font-default;
-		font-weight: 300;
-		padding-bottom: 8px;
 	}
 	h5 {
 		@extend .font-default;
-		font-weight: 300;
-		padding-bottom: 8px;
 	}
 	p {
 		@extend .font-small;
@@ -45,6 +41,22 @@
 	a {
 		&:hover, &:active {
 			text-decoration: underline;
+		}
+	}
+	p {
+		padding: 5px 0 10px;
+	}
+
+	&.md-blank {
+		h1, h2, h3, h4, h5, h6,
+		p, ul, ol, li {
+			@extend .font-default;
+			font-size: unset;
+			display: inline;
+			color: unset;
+			font-weight: 300;
+			padding: 0;
+			margin: 0;
 		}
 	}
 }

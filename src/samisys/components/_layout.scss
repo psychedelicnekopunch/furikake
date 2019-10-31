@@ -13,6 +13,17 @@
 		overflow-scrolling: touch;
 	}
 
+	.layout-content {
+		width: 100%;
+		max-width: $layout-content-width;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.layout-padding {
+		padding: 27px 26px 30px;
+	}
+
 	&.layout-fit-header-content {
 		> div {
 			min-height: calc(100vh - #{$layout-primary-header-height});
@@ -308,8 +319,4 @@
 		}
 	}
 
-
-	.layout-padding {
-		padding: 27px 26px 30px;
-	}
 }
