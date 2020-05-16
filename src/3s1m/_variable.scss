@@ -43,12 +43,14 @@ $input-border: 0;
 // _layout.scss
 $layout-width: 100%;
 $layout-content-width: 1000px;
-$layout-primary-header-height: 60px;
-$layout-primary-footer-height: 40px;
-$layout-secondary-header-height: 70px;
-$layout-secondary-footer-height: 40px;
-$layout-side-width: 250px;
-
+$layout-header-height: 50px;
+$layout-footer-height: 30px;
+$layout-main-header-height: 70px;
+$layout-main-footer-height: 40px;
+$layout-sub-header-height: 70px;
+$layout-sub-footer-height: 40px;
+$layout-sub-width: 250px;
+$layout-paading: 27px 26px 30px;
 
 
 /**
@@ -81,14 +83,14 @@ $color-dark-gray       : $color-gray-30;
 $color-superdark-gray  : $color-gray-20;
 $color-black           : $color-gray-0;
 
-$color-light-red: $color-red-50;
-$color-red: $color-red-40;
+$color-light-red: $color-light-red;
+$color-red: $color-red;
 
-$color-light-green: $color-green-50;
-$color-green: $color-green-40;
+$color-light-green: $color-light-green;
+$color-green: $color-green;
 
-$color-light-purple: $color-purple-50;
-$color-purple: $color-purple-40;
+$color-light-purple: $color-light-purple;
+$color-purple: $color-purple;
 
 
 

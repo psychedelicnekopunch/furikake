@@ -1,322 +1,209 @@
 .layout {
 	width: $layout-width;
 
-	> header {
-		height: $layout-primary-header-height;
-	}
-	> footer {
-		min-height: $layout-primary-footer-height;
-	}
 
 	.layout-scroll {
 		overflow-x: scroll;
 		overflow-scrolling: touch;
 	}
 
-	.layout-content {
-		width: 100%;
-		max-width: $layout-content-width;
-		margin-left: auto;
-		margin-right: auto;
-	}
 
 	.layout-padding {
-		padding: 27px 26px 30px;
-	}
-
-	&.layout-fit-header-content {
-		> div {
-			min-height: calc(100vh - #{$layout-primary-header-height});
-
-			&.layout-scroll, > .layout-scroll {
-				height: calc(100vh - #{$layout-primary-header-height});
-			}
-
-			&.layout-fit-header-content, > .layout-fit-header-content {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height});
-
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height});
-					}
-
-					&.layout-fit-content-footer {
-						> header {
-							height: $layout-secondary-header-height;
-						}
-						> footer {
-							min-height: $layout-secondary-footer-height;
-						}
-						> div {
-							min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-
-							&.layout-scroll {
-								height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-							}
-						}
-					}
-				}
-			}
-
-			&.layout-fit-content-footer, > .layout-fit-content-footer {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-footer-height});
-
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-footer-height});
-					}
-
-					&.layout-fit-header-content {
-						> header {
-							height: $layout-secondary-header-height;
-						}
-						> footer {
-							min-height: $layout-secondary-footer-height;
-						}
-						> div {
-							min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-
-							&.layout-scroll {
-								height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-							}
-						}
-					}
-				}
-			}
-
-			&.layout-fit-header-content-footer, > .layout-fit-header-content-footer {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-					}
-				}
-			}
-		}
-	}
-	&.layout-fit-content-footer {
-		> div {
-			min-height: calc(100vh - #{$layout-primary-footer-height});
-
-			&.layout-scroll, > .layout-scroll {
-				height: calc(100vh - #{$layout-primary-footer-height});
-			}
-
-			&.layout-fit-header-content, > .layout-fit-header-content {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
-
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
-						overflow-x: scroll;
-					}
-
-					&.layout-fit-header-content {
-						> header {
-							height: $layout-secondary-header-height;
-						}
-						> footer {
-							min-height: $layout-secondary-footer-height;
-						}
-						> div {
-							min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-
-							&.layout-scroll {
-								height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-								overflow-x: scroll;
-							}
-						}
-					}
-				}
-			}
-
-			&.layout-fit-content-footer, > .layout-fit-content-footer {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
-
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
-						overflow-x: scroll;
-					}
-
-					&.layout-fit-header-content {
-						> header {
-							height: $layout-secondary-header-height;
-						}
-						> footer {
-							min-height: $layout-secondary-footer-height;
-						}
-						> div {
-							min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-
-							&.layout-scroll {
-								height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-								overflow-x: scroll;
-							}
-						}
-					}
-				}
-			}
-
-			&.layout-fit-header-content-footer, > .layout-fit-header-content-footer {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-						overflow-x: scroll;
-					}
-				}
-			}
-		}
-	}
-	&.layout-fit-header-content-footer {
-		> div {
-			min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height});
-
-			&.layout-scroll {
-				height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height});
-				overflow-x: scroll;
-			}
-
-			> .layout-scroll {
-				height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height});
-				overflow-x: scroll;
-			}
-
-			> .layout-fit-header-content {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height});
-						overflow-x: scroll;
-					}
-				}
-			}
-			> .layout-fit-content-footer {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-footer-height});
-						overflow-x: scroll;
-					}
-				}
-			}
-			> .layout-fit-header-content-footer {
-				> header {
-					height: $layout-secondary-header-height;
-				}
-				> footer {
-					min-height: $layout-secondary-footer-height;
-				}
-				> div {
-					min-height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-					&.layout-scroll {
-						height: calc(100vh - #{$layout-primary-header-height} - #{$layout-primary-footer-height} - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
-						overflow-x: scroll;
-					}
-				}
-			}
-		}
+		padding: $layout-paading;
 	}
 
 
-	> .layout-side-main,
-	> .layout-main-side,
-	> .layout-side-main-side {
-		display: flex;
+	.layout-header {
+		height: $layout-header-height;
+	}
+
+
+	.layout-footer {
+		min-height: $layout-footer-height;
+	}
+
+
+	> .layout-content {
+
 		min-height: 100vh;
-		> .layout-fit-header-content {
-			> div {
-				min-height: calc(100vh - #{$layout-secondary-header-height});
+
+		.layout-column {
+			max-width: $layout-content-width;
+			width: 100%;
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		&.layout-content-calc-header {
+			min-height: calc(100vh - #{$layout-header-height});
+			&.layout-scroll {
+				height: calc(100vh - #{$layout-header-height});
+			}
+			.layout-main > .layout-content {
+				&.layout-content-calc-header {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-main-header-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-main-header-height});
+					}
+				}
+				&.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-main-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-main-footer-height});
+					}
+				}
+				&.layout-content-calc-header.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-main-header-height} - #{$layout-main-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-main-header-height} - #{$layout-main-footer-height});
+					}
+				}
+			}
+			.layout-sub > .layout-content {
+				&.layout-content-calc-header {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-sub-header-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-sub-header-height});
+					}
+				}
+				&.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-sub-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-sub-footer-height});
+					}
+				}
+				&.layout-content-calc-header.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-sub-header-height} - #{$layout-sub-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-sub-header-height} - #{$layout-sub-footer-height});
+					}
+				}
 			}
 		}
-		> .layout-fit-content-footer {
-			> div {
-				min-height: calc(100vh - #{$layout-secondary-footer-height});
+
+
+
+		&.layout-content-calc-footer {
+			min-height: calc(100vh - #{$layout-footer-height});
+			&.layout-scroll {
+				height: calc(100vh - #{$layout-footer-height});
+			}
+			.layout-main > .layout-content {
+				&.layout-content-calc-header {
+					min-height: calc(100vh - #{$layout-footer-height} - #{$layout-main-header-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-footer-height} - #{$layout-main-header-height});
+					}
+				}
+				&.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-footer-height} - #{$layout-main-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-footer-height} - #{$layout-main-footer-height});
+					}
+				}
+				&.layout-content-calc-header.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-footer-height} - #{$layout-main-header-height} - #{$layout-main-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-footer-height} - #{$layout-main-header-height} - #{$layout-main-footer-height});
+					}
+				}
+			}
+			.layout-sub > .layout-content {
+				&.layout-content-calc-header {
+					min-height: calc(100vh - #{$layout-footer-height} - #{$layout-sub-header-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-footer-height} - #{$layout-sub-header-height});
+					}
+				}
+				&.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-footer-height} - #{$layout-sub-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-footer-height} - #{$layout-sub-footer-height});
+					}
+				}
+				&.layout-content-calc-header.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-footer-height} - #{$layout-sub-header-height} - #{$layout-sub-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-footer-height} - #{$layout-sub-header-height} - #{$layout-sub-footer-height});
+					}
+				}
 			}
 		}
-		> .layout-fit-header-content-footer {
-			> div {
-				min-height: calc(100vh - #{$layout-secondary-header-height} - #{$layout-secondary-footer-height});
+
+
+
+		&.layout-content-calc-header.layout-content-calc-footer {
+			min-height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height});
+			&.layout-scroll {
+				height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height});
+			}
+			.layout-main > .layout-content {
+				&.layout-content-calc-header {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-main-header-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-main-header-height});
+					}
+				}
+				&.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-main-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-main-footer-height});
+					}
+				}
+				&.layout-content-calc-header.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-main-header-height} - #{$layout-main-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-main-header-height} - #{$layout-main-footer-height});
+					}
+				}
+			}
+			.layout-sub > .layout-content {
+				&.layout-content-calc-header {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-sub-header-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-sub-header-height});
+					}
+				}
+				&.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-sub-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-sub-footer-height});
+					}
+				}
+				&.layout-content-calc-header.layout-content-calc-footer {
+					min-height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-sub-header-height} - #{$layout-sub-footer-height});
+					&.layout-scroll {
+						height: calc(100vh - #{$layout-header-height} - #{$layout-footer-height} - #{$layout-sub-header-height} - #{$layout-sub-footer-height});
+					}
+				}
+			}
+		}
+
+
+		.layout-main {
+			max-width: $layout-content-width;
+			width: 100%;
+			flex: 1;
+			margin-left: auto;
+			margin-right: auto;
+			.layout-header {
+				height: $layout-main-header-height;
+			}
+			.layout-footer {
+				min-height: $layout-main-footer-height;
+			}
+		}
+
+
+		.layout-sub {
+			width: $layout-sub-width;
+			.layout-header {
+				height: $layout-sub-header-height;
+			}
+			.layout-footer {
+				min-height: $layout-sub-footer-height;
 			}
 		}
 	}
-
-
-	> .layout-side-main {
-		> *:nth-child(1) {
-			width: $layout-side-width;
-		}
-		> *:nth-child(2) {
-			flex: 1;
-		}
-	}
-	> .layout-main-side {
-		> *:nth-child(1) {
-			flex: 1;
-		}
-		> *:nth-child(2) {
-			width: $layout-side-width;
-		}
-	}
-	> .layout-side-main-side {
-		> *:nth-child(1) {
-			width: $layout-side-width;
-		}
-		> *:nth-child(2) {
-			flex: 1;
-		}
-		> *:nth-child(3) {
-			width: $layout-side-width;
-		}
-	}
-
 }
