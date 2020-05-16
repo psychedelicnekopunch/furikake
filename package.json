@@ -1,5 +1,5 @@
 {
-  "name": "samisys",
+  "name": "3s1m",
   "version": "1.0.0",
   "scripts": {
     "gulp": "gulp"
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/psychedelicnekopunch/samisys.git"
+    "url": "git+https://github.com/psychedelicnekopunch/3s1m.git"
   },
   "author": "psychedelicnekopunch",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/psychedelicnekopunch/samisys/issues"
+    "url": "https://github.com/psychedelicnekopunch/3s1m/issues"
   },
-  "homepage": "https://github.com/psychedelicnekopunch/samisys#readme"
+  "homepage": "https://github.com/psychedelicnekopunch/3s1m#readme"
 }
