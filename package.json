@@ -1,5 +1,5 @@
 {
-  "name": "3s1m",
+  "name": "furikake",
   "version": "1.0.0",
   "scripts": {
     "gulp": "gulp"
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/psychedelicnekopunch/3s1m.git"
+    "url": "git+https://github.com/psychedelicnekopunch/furikake.git"
   },
   "author": "psychedelicnekopunch",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/psychedelicnekopunch/3s1m/issues"
+    "url": "https://github.com/psychedelicnekopunch/furikake/issues"
   },
-  "homepage": "https://github.com/psychedelicnekopunch/3s1m#readme"
+  "homepage": "https://github.com/psychedelicnekopunch/furikake#readme"
 }
