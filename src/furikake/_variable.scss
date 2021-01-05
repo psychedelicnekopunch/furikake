@@ -1,31 +1,29 @@
+
 /**
- * Colors
+ * _color.scss
  *
  */
-$color-gray-100: #fff;
-$color-gray-90: #f9f9f9;
-$color-gray-80: #f2f2f2;
-$color-gray-70: #eee;
-$color-gray-60: #ddd;
-$color-gray-50: #ccc;
-$color-gray-40: #aaa;
-$color-gray-30: #999;
-$color-gray-20: #666;
-$color-gray-10: #444;
-$color-gray-0: #222;
 
-$color-light-red: #f9b;
-$color-red: #f79;
+/******
+Default Gray
+******/
 
-$color-light-green: #9ca;
-$color-green: #7a8;
-
-$color-light-purple: #b9b;
-$color-purple: #979;
+// $color-gray-100: #fff;
+// $color-gray-90: #f9f9f9;
+// $color-gray-80: #f2f2f2;
+// $color-gray-70: #eee;
+// $color-gray-60: #ddd;
+// $color-gray-50: #ccc;
+// $color-gray-40: #aaa;
+// $color-gray-30: #999;
+// $color-gray-20: #666;
+// $color-gray-10: #444;
+// $color-gray-0: #222;
 
 
-
-/*
+/******
+Blue Gray
+******/
 $color-gray-100: #fff;
 $color-gray-90: #f7f8f9;
 $color-gray-80: #e9ecf2;
@@ -38,15 +36,46 @@ $color-gray-20: #5a6066;
 $color-gray-10: #444;
 $color-gray-0: #012;
 
+
+/******
+Gray
+******/
+$color-white           : $color-gray-100;
+$color-superlight-gray : $color-gray-90;
+$color-light-gray      : $color-gray-80;
+$color-gray            : $color-gray-60;
+$color-dark-gray       : $color-gray-30;
+$color-superdark-gray  : $color-gray-10;
+$color-black           : $color-gray-0;
+
+
+/******
+Color
+******/
 $color-light-red: #f9b;
 $color-red: #f79;
 
 $color-light-green: #9ca;
 $color-green: #7a8;
 
+$color-light-blue: #9ca;
+$color-blue: #7a8;
+
 $color-light-purple: #b9b;
 $color-purple: #979;
-*/
+
+
+/**
+ * _padding.scss
+ *
+ */
+$padding-xsmall: 2px;
+$padding-small: 4px;
+$padding-medium: 12px;
+$padding-large: 16px;
+$padding-xlarge: 24px;
+
+
 
 
 /**
@@ -125,23 +154,7 @@ $text-font-xsmall-app  : 11px;
 $line-height: 150%;
 
 
-//// _color.scss
-$color-white           : $color-gray-100;
-$color-superlight-gray : $color-gray-90;
-$color-light-gray      : $color-gray-80;
-$color-gray            : $color-gray-60;
-$color-dark-gray       : $color-gray-30;
-$color-superdark-gray  : $color-gray-20;
-$color-black           : $color-gray-0;
 
-$color-light-red: $color-light-red;
-$color-red: $color-red;
-
-$color-light-green: $color-light-green;
-$color-green: $color-green;
-
-$color-light-purple: $color-light-purple;
-$color-purple: $color-purple;
 
 
 
