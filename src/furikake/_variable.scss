@@ -1,13 +1,10 @@
-
 /**
- * _color.scss
+ * Global Variable
  *
  */
-
 /******
-Default Gray
+Gray: Default
 ******/
-
 // $color-gray-100: #fff;
 // $color-gray-90: #f9f9f9;
 // $color-gray-80: #f2f2f2;
@@ -22,7 +19,7 @@ Default Gray
 
 
 /******
-Blue Gray
+Gray: Blue
 ******/
 $color-gray-100: #fff;
 $color-gray-90: #f7f8f9;
@@ -38,8 +35,28 @@ $color-gray-0: #012;
 
 
 /******
-Gray
+Font Size
 ******/
+$font-xlarge  : 28px;
+$font-large   : 20px;
+$font-default : 16px;
+$font-small   : 15px;
+$font-xsmall  : 13px;
+
+$font-xlarge-app  : 22px;
+$font-large-app   : 18px;
+$font-default-app : 14px;
+$font-small-app   : 12px;
+$font-xsmall-app  : 11px;
+
+
+
+
+
+/**
+ * _color.scss
+ *
+ */
 $color-white           : $color-gray-100;
 $color-superlight-gray : $color-gray-90;
 $color-light-gray      : $color-gray-80;
@@ -49,31 +66,45 @@ $color-superdark-gray  : $color-gray-10;
 $color-black           : $color-gray-0;
 
 
-/******
-Color
-******/
 $color-light-red: #f9b;
 $color-red: #f79;
 
 $color-light-green: #9ca;
 $color-green: #7a8;
 
-$color-light-blue: #9ca;
-$color-blue: #7a8;
+$color-light-blue: #9ac;
+$color-blue: #78a;
 
 $color-light-purple: #b9b;
 $color-purple: #979;
 
 
+
+
+
 /**
- * _padding.scss
+ * _spacing.scss
  *
  */
+/******
+Padding
+******/
 $padding-xsmall: 2px;
 $padding-small: 4px;
 $padding-medium: 12px;
 $padding-large: 16px;
 $padding-xlarge: 24px;
+
+
+/******
+Margin
+******/
+$margin-xsmall: 2px;
+$margin-small: 4px;
+$margin-medium: 12px;
+$margin-large: 16px;
+$margin-xlarge: 24px;
+
 
 
 
@@ -82,7 +113,6 @@ $padding-xlarge: 24px;
  * Components
  *
  */
-
 // _button.scss
 $button-bg-color: $color-gray-60;
 $button-bg-color-active: $color-gray-70;
@@ -134,25 +164,24 @@ $layout-paading: 27px 26px 30px;
 
 
 /**
- * extends
+ * _text.scss
  *
  */
 
 // _font-size.scss
-$text-font-xlarge  : 28px;
-$text-font-large   : 20px;
-$text-font-default : 16px;
-$text-font-small   : 15px;
-$text-font-xsmall  : 13px;
+$text-font-xlarge  : $font-xlarge;
+$text-font-large   : $font-large;
+$text-font-default : $font-default;
+$text-font-small   : $font-small;
+$text-font-xsmall  : $font-xsmall;
 
-$text-font-xlarge-app  : 22px;
-$text-font-large-app   : 18px;
-$text-font-default-app : 14px;
-$text-font-small-app   : 12px;
-$text-font-xsmall-app  : 11px;
+$text-font-xlarge-app  : $font-xlarge-app;
+$text-font-large-app   : $font-large-app;
+$text-font-default-app : $font-default-app;
+$text-font-small-app   : $font-small-app;
+$text-font-xsmall-app  : $font-xsmall-app;
 
 $line-height: 150%;
-
 
 
 
