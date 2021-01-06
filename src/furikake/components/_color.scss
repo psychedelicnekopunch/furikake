@@ -17,6 +17,8 @@ $colors: (
 	"light-blue": $color-light-blue,
 	"purple": $color-purple,
 	"light-purple": $color-light-purple,
+	"orange": $color-orange,
+	"light-orange": $color-light-orange,
 );
 
 
@@ -77,3 +79,6 @@ $colors: (
 
 @include color("purple", "light-purple");
 @include color("light-purple", "purple");
+
+@include color("orange", "light-orange");
+@include color("light-orange", "orange");
