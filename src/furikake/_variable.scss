@@ -37,17 +37,48 @@ $color-gray-0: #012;
 /******
 Font Size
 ******/
-$font-xlarge  : 28px;
-$font-large   : 20px;
-$font-default : 16px;
-$font-small   : 15px;
+$font-xlarge  : 36px;
+$font-large   : 24px;
+$font-default : 18px;
+$font-small   : 16px;
 $font-xsmall  : 13px;
 
-$font-xlarge-app  : 22px;
+$font-xlarge-app  : 26px;
 $font-large-app   : 18px;
 $font-default-app : 14px;
 $font-small-app   : 12px;
 $font-xsmall-app  : 11px;
+
+
+
+
+
+/**
+ * _button.scss
+ *
+ */
+$button-primary-bg: $color-gray-0;
+$button-primary-bg-active: $color-gray-10;
+$button-primary-color: $color-gray-90;
+$button-primary-color-active: $color-gray-100;
+
+$button-secondary-bg: $color-gray-60;
+$button-secondary-bg-active: $color-gray-70;
+$button-secondary-color: $color-gray-10;
+$button-secondary-color-active: $color-gray-20;
+
+$button-default-bg: $color-gray-80;
+$button-default-bg-active: $color-gray-90;
+$button-default-color: $color-gray-10;
+$button-default-color-active: $color-gray-20;
+
+$button-font-large: $font-large;
+$button-font-medium: $font-default;
+$button-font-small: $font-xsmall;
+
+$button-font-large-app: $font-large-app;
+$button-font-medium-app: $font-default-app;
+$button-font-small-app: $font-xsmall-app;
 
 
 
@@ -93,20 +124,20 @@ $color-orange: #d85;
 Padding
 ******/
 $padding-xsmall: 2px;
-$padding-small: 4px;
+$padding-small: 8px;
 $padding-medium: 12px;
-$padding-large: 16px;
-$padding-xlarge: 24px;
+$padding-large: 24px;
+$padding-xlarge: 48px;
 
 
 /******
 Margin
 ******/
 $margin-xsmall: 2px;
-$margin-small: 4px;
+$margin-small: 8px;
 $margin-medium: 12px;
-$margin-large: 16px;
-$margin-xlarge: 24px;
+$margin-large: 24px;
+$margin-xlarge: 48px;
 
 
 
@@ -116,31 +147,6 @@ $margin-xlarge: 24px;
  * Components
  *
  */
-// _button.scss
-$button-bg-color: $color-gray-60;
-$button-bg-color-active: $color-gray-70;
-$button-font-color: $color-gray-10;
-$button-font-color-active: $color-gray-20;
-
-$button-primary-bg-color: $color-gray-0;
-$button-primary-bg-color-active: $color-gray-10;
-$button-primary-font-color: $color-gray-90;
-$button-primary-font-color-active: $color-gray-100;
-
-$button-secondary-bg-color: $color-gray-60;
-$button-secondary-bg-color-active: $color-gray-70;
-$button-secondary-font-color: $color-gray-10;
-$button-secondary-font-color-active: $color-gray-20;
-
-$button-default-bg-color: $color-gray-80;
-$button-default-bg-color-active: $color-gray-90;
-$button-default-font-color: $color-gray-10;
-$button-default-font-color-active: $color-gray-20;
-
-$button-large-font-size: 20px;
-$button-medium-font-size: 14px;
-$button-small-font-size: 12px;
-
 
 // _card.scss
 $card-box-shadow: 0 0 3px 0 rgba($color-gray-0, .3);

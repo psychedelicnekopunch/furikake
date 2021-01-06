@@ -1,49 +1,50 @@
 a.button, button.button, div.button {
 
 	display: inline-block;
+	border-radius: 3px;
 	border: 0;
 	cursor: pointer;
 
 	&.primary {
-		background: $button-primary-bg-color;
-		color: $button-primary-font-color;
+		background: $button-primary-bg;
+		color: $button-primary-color;
 		&:hover, &:active {
-			background: $button-primary-bg-color-active;
-			color: $button-primary-font-color-active;
+			background: $button-primary-bg-active;
+			color: $button-primary-color-active;
 		}
 	}
 	&.secondary {
-		background: $button-secondary-bg-color;
-		color: $button-secondary-font-color;
+		background: $button-secondary-bg;
+		color: $button-secondary-color;
 		&:hover, &:active {
-			background: $button-secondary-bg-color-active;
-			color: $button-secondary-font-color-active;
+			background: $button-secondary-bg-active;
+			color: $button-secondary-color-active;
 		}
 	}
 	&.default {
-		background: $button-default-bg-color;
-		color: $button-default-font-color;
+		background: $button-default-bg;
+		color: $button-default-color;
 		&:hover, &:active {
-			background: $button-default-bg-color-active;
-			color: $button-default-font-color-active;
+			background: $button-default-bg-active;
+			color: $button-default-color-active;
 		}
 	}
 
 	&.large {
-		font-size: $button-large-font-size;
-		line-height: 140%;
+		font-size: $button-font-large;
+		line-height: $line-height;
 		padding: 10px 15px;
 		margin: 12px 0;
 	}
 	&.medium {
-		font-size: $button-medium-font-size;
-		line-height: 140%;
+		font-size: $button-font-medium;
+		line-height: $line-height;
 		padding: 10px 15px;
 		margin: 12px 0;
 	}
 	&.small {
-		font-size: $button-small-font-size;
-		line-height: 140%;
+		font-size: $button-font-small;
+		line-height: $line-height;
 		padding: 10px 15px;
 		margin: 12px 0;
 	}

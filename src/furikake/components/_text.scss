@@ -14,30 +14,30 @@
 }
 
 .headline1 {
-	background: $color-gray;
-	color: $color-dark-gray;
-	padding: 12px;
+	@extend .font-xlarge;
+	color: $color-black;
+	margin-bottom: $margin-large;
 }
 
 .headline2 {
+	background: $color-gray;
 	color: $color-dark-gray;
-	border-bottom: 1px $color-gray solid;
-	padding: 2px;
-	margin-bottom: 12px;
+	padding: $padding-medium;
+	margin-bottom: $margin-large;
 }
 
 .headline3 {
 	color: $color-dark-gray;
 	border-bottom: 1px $color-gray solid;
-	padding: 2px;
-	margin-bottom: 12px;
+	padding: $padding-xsmall;
+	margin-bottom: $margin-medium;
 }
 
 .headline4 {
 	color: $color-dark-gray;
 	border-bottom: 1px $color-gray solid;
-	padding: 2px;
-	margin-bottom: 12px;
+	padding: $padding-xsmall;
+	margin-bottom: $margin-medium;
 }
 
 
