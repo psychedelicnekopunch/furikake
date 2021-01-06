@@ -3,9 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>furikake</title>
-	<link rel="stylesheet" href="./style.css">
+	<!-- highlight.js -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+	<!-- /highlight.js -->
+	<link rel="stylesheet" href="./style.css?1">
 </head>
-<body>
+<body onload="hljs.initHighlighting()">
 	<div class="layout">
 		<header class="layout-header bg-dark-gray color-white-link padding-medium">
 			<h1><a href="">furikake</a></h1>
@@ -49,12 +53,13 @@
 					</footer>
 				</div>
 				<div class="layout-main">
-					<div class="padding-medium layout-content-scroll layout-content-calc-footer">
+					<div class="layout-content-scroll layout-content-calc-footer padding-medium">
 						<header class="layout-header">
 							<h2 class="headline1">Sass Components</h2>
 						</header>
-						<p style="height: 1500px">main content</p>
-						<p>end</p>
+						<div class="padding-medium">
+							<h3 class="headline2">Getting Started</h3>
+						</div>
 					</div>
 					<footer class="layout-footer">
 						main footer

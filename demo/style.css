@@ -587,7 +587,7 @@ a.button > i.right, button.button > i.right, div.button > i.right {
   margin: auto;
 }
 
-.color-white {
+.color-white, .hljs, .hljs-built_in, .hljs-type, .hljs-literal, .hljs-number, .hljs-operator, .hljs-punctuation, .hljs-regexp, .hljs-subst, .hljs-symbol, .hljs-class, .hljs-function, .hljs-params, .hljs-doctag, .hljs-section, .hljs-tag, .hljs-builtin, .hljs-attribute, .hljs-Text, .hljs-bullet, .hljs-code, .hljs-emphasis, .hljs-strong, .hljs-formula, .hljs-link, .hljs-quote, .hljs-selector-tag, .hljs-selector-id, .hljs-selector-class, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-template {
   color: #fff;
 }
 
@@ -595,11 +595,11 @@ a.button > i.right, button.button > i.right, div.button > i.right {
   background: #fff;
 }
 
-a.color-white {
+a.color-white, a.hljs, a.hljs-built_in, a.hljs-type, a.hljs-literal, a.hljs-number, a.hljs-operator, a.hljs-punctuation, a.hljs-regexp, a.hljs-subst, a.hljs-symbol, a.hljs-class, a.hljs-function, a.hljs-params, a.hljs-doctag, a.hljs-section, a.hljs-tag, a.hljs-builtin, a.hljs-attribute, a.hljs-Text, a.hljs-bullet, a.hljs-code, a.hljs-emphasis, a.hljs-strong, a.hljs-formula, a.hljs-link, a.hljs-quote, a.hljs-selector-tag, a.hljs-selector-id, a.hljs-selector-class, a.hljs-selector-attr, a.hljs-selector-pseudo, a.hljs-template {
   color: #fff;
 }
 
-a.color-white:hover, a.color-white:active {
+a.color-white:hover, a.hljs:hover, a.hljs-built_in:hover, a.hljs-type:hover, a.hljs-literal:hover, a.hljs-number:hover, a.hljs-operator:hover, a.hljs-punctuation:hover, a.hljs-regexp:hover, a.hljs-subst:hover, a.hljs-symbol:hover, a.hljs-class:hover, a.hljs-function:hover, a.hljs-params:hover, a.hljs-doctag:hover, a.hljs-section:hover, a.hljs-tag:hover, a.hljs-builtin:hover, a.hljs-attribute:hover, a.hljs-Text:hover, a.hljs-bullet:hover, a.hljs-code:hover, a.hljs-emphasis:hover, a.hljs-strong:hover, a.hljs-formula:hover, a.hljs-link:hover, a.hljs-quote:hover, a.hljs-selector-tag:hover, a.hljs-selector-id:hover, a.hljs-selector-class:hover, a.hljs-selector-attr:hover, a.hljs-selector-pseudo:hover, a.hljs-template:hover, a.color-white:active, a.hljs:active, a.hljs-built_in:active, a.hljs-type:active, a.hljs-literal:active, a.hljs-number:active, a.hljs-operator:active, a.hljs-punctuation:active, a.hljs-regexp:active, a.hljs-subst:active, a.hljs-symbol:active, a.hljs-class:active, a.hljs-function:active, a.hljs-params:active, a.hljs-doctag:active, a.hljs-section:active, a.hljs-tag:active, a.hljs-builtin:active, a.hljs-attribute:active, a.hljs-Text:active, a.hljs-bullet:active, a.hljs-code:active, a.hljs-emphasis:active, a.hljs-strong:active, a.hljs-formula:active, a.hljs-link:active, a.hljs-quote:active, a.hljs-selector-tag:active, a.hljs-selector-id:active, a.hljs-selector-class:active, a.hljs-selector-attr:active, a.hljs-selector-pseudo:active, a.hljs-template:active {
   color: #f7f8f9;
 }
 
@@ -707,7 +707,7 @@ a.bg-light-gray:hover, a.bg-light-gray:active {
   background: #f7f8f9;
 }
 
-.color-gray {
+.color-gray, .hljs-meta-keyword, .hljs-meta-string {
   color: #d2d8dd;
 }
 
@@ -715,11 +715,11 @@ a.bg-light-gray:hover, a.bg-light-gray:active {
   background: #d2d8dd;
 }
 
-a.color-gray {
+a.color-gray, a.hljs-meta-keyword, a.hljs-meta-string {
   color: #d2d8dd;
 }
 
-a.color-gray:hover, a.color-gray:active {
+a.color-gray:hover, a.hljs-meta-keyword:hover, a.hljs-meta-string:hover, a.color-gray:active, a.hljs-meta-keyword:active, a.hljs-meta-string:active {
   color: #e9ecf2;
 }
 
@@ -747,7 +747,7 @@ a.bg-gray:hover, a.bg-gray:active {
   background: #e9ecf2;
 }
 
-.color-dark-gray {
+.color-dark-gray, .hljs-comment, .hljs-meta {
   color: #789;
 }
 
@@ -755,11 +755,11 @@ a.bg-gray:hover, a.bg-gray:active {
   background: #789;
 }
 
-a.color-dark-gray {
+a.color-dark-gray, a.hljs-comment, a.hljs-meta {
   color: #789;
 }
 
-a.color-dark-gray:hover, a.color-dark-gray:active {
+a.color-dark-gray:hover, a.hljs-comment:hover, a.hljs-meta:hover, a.color-dark-gray:active, a.hljs-comment:active, a.hljs-meta:active {
   color: #d2d8dd;
 }
 
@@ -831,7 +831,7 @@ a.bg-superdark-gray:hover, a.bg-superdark-gray:active {
   color: #012;
 }
 
-.bg-black {
+.bg-black, .hljs {
   background: #012;
 }
 
@@ -843,11 +843,11 @@ a.color-black:hover, a.color-black:active {
   color: #444;
 }
 
-a.bg-black {
+a.bg-black, a.hljs {
   background: #012;
 }
 
-a.bg-black:hover, a.bg-black:active {
+a.bg-black:hover, a.hljs:hover, a.bg-black:active, a.hljs:active {
   background: #444;
 }
 
@@ -867,7 +867,7 @@ a.bg-black:hover, a.bg-black:active {
   background: #444;
 }
 
-.color-red {
+.color-red, .hljs-variable, .hljs-name, .hljs-deletion {
   color: #f79;
 }
 
@@ -875,11 +875,11 @@ a.bg-black:hover, a.bg-black:active {
   background: #f79;
 }
 
-a.color-red {
+a.color-red, a.hljs-variable, a.hljs-name, a.hljs-deletion {
   color: #f79;
 }
 
-a.color-red:hover, a.color-red:active {
+a.color-red:hover, a.hljs-variable:hover, a.hljs-name:hover, a.hljs-deletion:hover, a.color-red:active, a.hljs-variable:active, a.hljs-name:active, a.hljs-deletion:active {
   color: #f9b;
 }
 
@@ -947,7 +947,7 @@ a.bg-light-red:hover, a.bg-light-red:active {
   background: #f79;
 }
 
-.color-green {
+.color-green, .hljs-addition {
   color: #7a8;
 }
 
@@ -955,11 +955,11 @@ a.bg-light-red:hover, a.bg-light-red:active {
   background: #7a8;
 }
 
-a.color-green {
+a.color-green, a.hljs-addition {
   color: #7a8;
 }
 
-a.color-green:hover, a.color-green:active {
+a.color-green:hover, a.hljs-addition:hover, a.color-green:active, a.hljs-addition:active {
   color: #9ca;
 }
 
@@ -987,7 +987,7 @@ a.bg-green:hover, a.bg-green:active {
   background: #9ca;
 }
 
-.color-light-green {
+.color-light-green, .hljs-string {
   color: #9ca;
 }
 
@@ -995,11 +995,11 @@ a.bg-green:hover, a.bg-green:active {
   background: #9ca;
 }
 
-a.color-light-green {
+a.color-light-green, a.hljs-string {
   color: #9ca;
 }
 
-a.color-light-green:hover, a.color-light-green:active {
+a.color-light-green:hover, a.hljs-string:hover, a.color-light-green:active, a.hljs-string:active {
   color: #7a8;
 }
 
@@ -1067,7 +1067,7 @@ a.bg-blue:hover, a.bg-blue:active {
   background: #9ac;
 }
 
-.color-light-blue {
+.color-light-blue, .hljs-title {
   color: #9ac;
 }
 
@@ -1075,11 +1075,11 @@ a.bg-blue:hover, a.bg-blue:active {
   background: #9ac;
 }
 
-a.color-light-blue {
+a.color-light-blue, a.hljs-title {
   color: #9ac;
 }
 
-a.color-light-blue:hover, a.color-light-blue:active {
+a.color-light-blue:hover, a.hljs-title:hover, a.color-light-blue:active, a.hljs-title:active {
   color: #78a;
 }
 
@@ -1147,7 +1147,7 @@ a.bg-purple:hover, a.bg-purple:active {
   background: #b9b;
 }
 
-.color-light-purple {
+.color-light-purple, .hljs-keyword {
   color: #b9b;
 }
 
@@ -1155,11 +1155,11 @@ a.bg-purple:hover, a.bg-purple:active {
   background: #b9b;
 }
 
-a.color-light-purple {
+a.color-light-purple, a.hljs-keyword {
   color: #b9b;
 }
 
-a.color-light-purple:hover, a.color-light-purple:active {
+a.color-light-purple:hover, a.hljs-keyword:hover, a.color-light-purple:active, a.hljs-keyword:active {
   color: #979;
 }
 
@@ -1185,6 +1185,86 @@ a.bg-light-purple:hover, a.bg-light-purple:active {
 
 .bg-light-purple-link a:hover, .bg-light-purple-link a:active {
   background: #979;
+}
+
+.color-orange, .hljs-attr {
+  color: #d85;
+}
+
+.bg-orange {
+  background: #d85;
+}
+
+a.color-orange, a.hljs-attr {
+  color: #d85;
+}
+
+a.color-orange:hover, a.hljs-attr:hover, a.color-orange:active, a.hljs-attr:active {
+  color: #ea7;
+}
+
+a.bg-orange {
+  background: #d85;
+}
+
+a.bg-orange:hover, a.bg-orange:active {
+  background: #ea7;
+}
+
+.color-orange-link a {
+  color: #d85;
+}
+
+.color-orange-link a:hover, .color-orange-link a:active {
+  color: #ea7;
+}
+
+.bg-orange-link a {
+  background: #d85;
+}
+
+.bg-orange-link a:hover, .bg-orange-link a:active {
+  background: #ea7;
+}
+
+.color-light-orange {
+  color: #ea7;
+}
+
+.bg-light-orange {
+  background: #ea7;
+}
+
+a.color-light-orange {
+  color: #ea7;
+}
+
+a.color-light-orange:hover, a.color-light-orange:active {
+  color: #d85;
+}
+
+a.bg-light-orange {
+  background: #ea7;
+}
+
+a.bg-light-orange:hover, a.bg-light-orange:active {
+  background: #d85;
+}
+
+.color-light-orange-link a {
+  color: #ea7;
+}
+
+.color-light-orange-link a:hover, .color-light-orange-link a:active {
+  color: #d85;
+}
+
+.bg-light-orange-link a {
+  background: #ea7;
+}
+
+.bg-light-orange-link a:hover, .bg-light-orange-link a:active {
+  background: #d85;
 }
 
 .form {
@@ -1894,13 +1974,13 @@ dl.list > dd {
   }
 }
 
-.font-xsmall {
+.font-xsmall, .hljs {
   font-size: 13px;
   line-height: 150%;
 }
 
 @media screen and (max-width: 360px) {
-  .font-xsmall {
+  .font-xsmall, .hljs {
     font-size: 11px;
   }
 }
