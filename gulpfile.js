@@ -11,7 +11,7 @@ function build(callback) {
 		.pipe($.sass({
 			// includePaths : [require("bourbon").includePaths],
 			// [outputStyle] Type: String Default: nested Values: nested, expanded, compact, compressed
-			outputStyle  : 'compressed',
+			outputStyle  : 'nested',
 		}).on('error', $.sass.logError))
 		.pipe($.autoprefixer({
 			browsers: ['last 1 versions']
