@@ -1,3 +1,32 @@
+
+$grid-columns: "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve";
+
 .grid {
-	
+	display: flex;
+	&.center {
+		align-items: center;
+		> * {
+			margin: auto;
+		}
+	}
+	&.left {
+		align-items: flex-start;
+	}
+	&.right {
+		align-items: flex-end;
+	}
+	&.reverse {
+		flex-direction: row-reverse;
+	}
+	/*> * {
+		flex: 1;
+	}*/
+
+	@each $column in $grid-columns {
+		$i: index($grid-columns, $column);
+		> .#{$column} {
+			// flex-grow: $i;
+			width: 100% / 12 * $i;
+		}
+	}
 }
