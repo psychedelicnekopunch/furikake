@@ -7,7 +7,7 @@ module.exports = {
 	entry: './app.js',
 	output: {
 		path: path.resolve(__dirname, 'demo'),
-		filename: 'script.js',
+		filename: 'bundle.js',
 	},
 	module: {
 		rules: [
@@ -35,7 +35,7 @@ module.exports = {
 			contextRegExp: /moment$/,
 		}),
 		new MiniCssExtractPlugin({
-			filename: 'style.css',
+			filename: 'bundle.css',
 		}),
 	],
 }
