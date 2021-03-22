@@ -3,14 +3,40 @@ const webpack = require('webpack');
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const mode = process.env.NODE_ENV || 'development';
+const prod = mode === 'production';
+
 module.exports = {
 	entry: './app.js',
+	resolve: {
+		alias: {
+			svelte: path.dirname(require.resolve('svelte/package.json'))
+		},
+		extensions: ['.mjs', '.js', '.svelte'],
+		mainFields: ['svelte', 'browser', 'module', 'main']
+	},
 	output: {
 		path: path.resolve(__dirname, 'demo'),
-		filename: 'bundle.js',
+		filename: 'js/bundle.js',
 	},
 	module: {
 		rules: [
+			{
+				test: /\.svelte$/,
+				use: {
+					loader: 'svelte-loader',
+					options: {
+						preprocess: require('svelte-preprocess')({
+							scss: true,
+						}),
+						compilerOptions: {
+							dev: !prod,
+						},
+						emitCss: prod,
+						hotReload: !prod,
+					},
+				},
+			},
 			{
 				test: /\.scss$/i,
 				exclude: /node_modules/,
@@ -18,15 +44,16 @@ module.exports = {
 					MiniCssExtractPlugin.loader,
 					{
 						loader: 'css-loader',
-						options: { url: false },
+						options: {
+							url: false,
+						},
 					},
-					'sass-loader',
+					{
+						loader: 'sass-loader',
+						options: {},
+					},
 				],
 			},
-			// {
-			// 	test: /\.(png|svg|jpg|jpeg|gif)$/i,
-			// 	type: 'assets/images',
-			// },
 		],
 	},
 	plugins: [
@@ -35,7 +62,7 @@ module.exports = {
 			contextRegExp: /moment$/,
 		}),
 		new MiniCssExtractPlugin({
-			filename: 'bundle.css',
+			filename: 'css/bundle.css',
 		}),
 	],
 }
