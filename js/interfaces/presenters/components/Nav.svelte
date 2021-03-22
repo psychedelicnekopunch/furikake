@@ -1,16 +1,28 @@
 <script>
 
+	export let category = ''
+	export let article = ''
+
 </script>
 
 <style lang="scss">
-
+	li {
+		a {
+			display: block;
+		}
+	}
+	ul.button-index {
+		& {
+			background: #e1e5e8;
+		}
+	}
 </style>
 
 <nav class="padding-medium font-small color-blue-link">
-	<ul>
-		<li><a href="/align">Align</a></li>
-		<li><a href="/button">Button</a></li>
-		<li><a href="/card">Card</a></li>
+	<ul class="{ category }-{ article }">
+		<!-- <li><a href="/align">Align</a></li> -->
+		<li class="button-index"><a href="/button">Button</a></li>
+		<!-- <li><a href="/card">Card</a></li>
 		<li><a href="/color">Color</a></li>
 		<li><a href="/form">Form</a></li>
 		<li><a href="/grid">Grid</a></li>
@@ -27,6 +39,6 @@
 				<li><a href="/text#fontSize">Font Size</a></li>
 				<li><a href="/text#paragraph">Paragraph</a></li>
 			</ul>
-		</li>
+		</li> -->
 	</ul>
 </nav>

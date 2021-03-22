@@ -1,5 +1,5 @@
 
-import Index from '/js/interfaces/presenters/button/Index.svelte';
+import Index from '/js/interfaces/presenters/Index.svelte';
 
 
 class ButtonContoller {
@@ -18,6 +18,11 @@ class ButtonContoller {
 				article: 'index',
 			},
 		})
+		console.log(hljs)
+		// hljs.highlightAll()
+		document.querySelectorAll('pre code').forEach((block) => {
+			hljs.highlightBlock(block);
+		});
 	}
 
 }
