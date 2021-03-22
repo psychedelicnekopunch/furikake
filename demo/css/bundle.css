@@ -1160,7 +1160,7 @@ a.bg-light-orange {
           height: calc(100vh - 50px - 35px - 70px - 40px); }
     .layout > .layout-content .layout-main, .layout > .layout-content-scroll .layout-main {
       max-width: 1000px;
-      width: 100%;
+      width: 0%;
       flex: 1;
       margin-left: auto;
       margin-right: auto; }
@@ -1169,6 +1169,7 @@ a.bg-light-orange {
       .layout > .layout-content .layout-main .layout-footer, .layout > .layout-content-scroll .layout-main .layout-footer {
         min-height: 40px; }
     .layout > .layout-content .layout-sub, .layout > .layout-content-scroll .layout-sub {
+      min-width: 250px;
       width: 250px; }
       .layout > .layout-content .layout-sub .layout-header, .layout > .layout-content-scroll .layout-sub .layout-header {
         height: 70px; }

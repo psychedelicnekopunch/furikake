@@ -11,5 +11,5 @@
 </header>
 <div class="padding-medium">
 	<h3 class="headline2">Getting Started</h3>
-	<pre><code class="bash">$ docker-compose up</code></pre>
+	<pre><code class="bash">$ docker-compose up aijrfhapefhpqiwehfoiuerhaefoiushdrofidfuhvspdriufhvosushfoiauehrfoucahrodiufhaweiufhuaiehrofiauhoauihec</code></pre>
 </div>

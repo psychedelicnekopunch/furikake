@@ -185,7 +185,8 @@
 
 		.layout-main {
 			max-width: $layout-content-width;
-			width: 100%;
+			// width: 100%;
+			width: 0%;
 			flex: 1;
 			margin-left: auto;
 			margin-right: auto;
@@ -199,6 +200,7 @@
 
 
 		.layout-sub {
+			min-width: $layout-sub-width;
 			width: $layout-sub-width;
 			.layout-header {
 				height: $layout-sub-header-height;
