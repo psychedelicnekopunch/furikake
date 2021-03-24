@@ -11,6 +11,7 @@
 
 	export let category = ''
 	export let article = ''
+	export let didClickHeaderBars = function() {}
 
 </script>
 
@@ -20,25 +21,25 @@
 
 <div class="layout">
 	<header class="layout-header bg-dark-gray color-white-link padding-medium">
-		<Header/>
+		<Header didClick={ didClickHeaderBars }/>
 	</header>
-	<div class="layout-content layout-content-calc-header layout-content-calc-footer">
+	<div class="layout-content layout-content-adjust-header layout-content-adjust-footer">
 		<div class="layout-column">
-			<div class="layout-sub bg-superlight-gray">
+			<div class="layout-column-sub bg-superlight-gray hide-mobile hide-tablet">
 				<header class="layout-header padding-medium">
 					<div class="padding-medium bg-light-gray font-xsmall">
 						<Version/>
 					</div>
 				</header>
-				<div class="layout-content-scroll layout-content-calc-header layout-content-calc-footer">
+				<div class="layout-content-scroll layout-content-adjust-header layout-content-adjust-footer">
 					<Nav category={ category } article={ article }/>
 				</div>
 				<footer class="layout-footer padding-small">
 					<SubFooter/>
 				</footer>
 			</div>
-			<div class="layout-main">
-				<div class="layout-content-scroll layout-content-calc-footer padding-medium">
+			<div class="layout-column-main">
+				<div class="layout-content-scroll layout-content-adjust-footer padding-medium">
 					<Article category={ category } article={ article }/>
 				</div>
 				<footer class="layout-footer padding-small">
