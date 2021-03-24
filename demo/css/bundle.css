@@ -1197,11 +1197,11 @@ a.bg-light-orange {
   .hide-mobile {
     display: none; } }
 
-@media screen and (min-width: 360px) and (max-width: 550px) {
+@media screen and (min-width: 360px) and (max-width: 680px) {
   .hide-tablet {
     display: none; } }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 680px) {
   .hide-desktop {
     display: none; } }
 
