@@ -531,15 +531,23 @@ a.bg-white {
   a.bg-white:hover, a.bg-white:active {
     background: #f7f8f9; }
 
-.color-white-link a {
+.color-white-link {
   color: #fff; }
-  .color-white-link a:hover, .color-white-link a:active {
+  .color-white-link:hover, .color-white-link:active {
     color: #f7f8f9; }
+  .color-white-link a {
+    color: #fff; }
+    .color-white-link a:hover, .color-white-link a:active {
+      color: #f7f8f9; }
 
-.bg-white-link a {
+.bg-white-link {
   background: #fff; }
-  .bg-white-link a:hover, .bg-white-link a:active {
+  .bg-white-link:hover, .bg-white-link:active {
     background: #f7f8f9; }
+  .bg-white-link a {
+    background: #fff; }
+    .bg-white-link a:hover, .bg-white-link a:active {
+      background: #f7f8f9; }
 
 .color-superlight-gray {
   color: #f7f8f9; }
@@ -557,15 +565,23 @@ a.bg-superlight-gray {
   a.bg-superlight-gray:hover, a.bg-superlight-gray:active {
     background: #fff; }
 
-.color-superlight-gray-link a {
+.color-superlight-gray-link {
   color: #f7f8f9; }
-  .color-superlight-gray-link a:hover, .color-superlight-gray-link a:active {
+  .color-superlight-gray-link:hover, .color-superlight-gray-link:active {
     color: #fff; }
+  .color-superlight-gray-link a {
+    color: #f7f8f9; }
+    .color-superlight-gray-link a:hover, .color-superlight-gray-link a:active {
+      color: #fff; }
 
-.bg-superlight-gray-link a {
+.bg-superlight-gray-link {
   background: #f7f8f9; }
-  .bg-superlight-gray-link a:hover, .bg-superlight-gray-link a:active {
+  .bg-superlight-gray-link:hover, .bg-superlight-gray-link:active {
     background: #fff; }
+  .bg-superlight-gray-link a {
+    background: #f7f8f9; }
+    .bg-superlight-gray-link a:hover, .bg-superlight-gray-link a:active {
+      background: #fff; }
 
 .color-light-gray {
   color: #e9ecf2; }
@@ -583,15 +599,23 @@ a.bg-light-gray {
   a.bg-light-gray:hover, a.bg-light-gray:active {
     background: #f7f8f9; }
 
-.color-light-gray-link a {
+.color-light-gray-link {
   color: #e9ecf2; }
-  .color-light-gray-link a:hover, .color-light-gray-link a:active {
+  .color-light-gray-link:hover, .color-light-gray-link:active {
     color: #f7f8f9; }
+  .color-light-gray-link a {
+    color: #e9ecf2; }
+    .color-light-gray-link a:hover, .color-light-gray-link a:active {
+      color: #f7f8f9; }
 
-.bg-light-gray-link a {
+.bg-light-gray-link {
   background: #e9ecf2; }
-  .bg-light-gray-link a:hover, .bg-light-gray-link a:active {
+  .bg-light-gray-link:hover, .bg-light-gray-link:active {
     background: #f7f8f9; }
+  .bg-light-gray-link a {
+    background: #e9ecf2; }
+    .bg-light-gray-link a:hover, .bg-light-gray-link a:active {
+      background: #f7f8f9; }
 
 .color-gray, .hljs-meta-keyword, .hljs-meta-string {
   color: #d2d8dd; }
@@ -609,15 +633,23 @@ a.bg-gray {
   a.bg-gray:hover, a.bg-gray:active {
     background: #e9ecf2; }
 
-.color-gray-link a {
+.color-gray-link {
   color: #d2d8dd; }
-  .color-gray-link a:hover, .color-gray-link a:active {
+  .color-gray-link:hover, .color-gray-link:active {
     color: #e9ecf2; }
+  .color-gray-link a {
+    color: #d2d8dd; }
+    .color-gray-link a:hover, .color-gray-link a:active {
+      color: #e9ecf2; }
 
-.bg-gray-link a {
+.bg-gray-link {
   background: #d2d8dd; }
-  .bg-gray-link a:hover, .bg-gray-link a:active {
+  .bg-gray-link:hover, .bg-gray-link:active {
     background: #e9ecf2; }
+  .bg-gray-link a {
+    background: #d2d8dd; }
+    .bg-gray-link a:hover, .bg-gray-link a:active {
+      background: #e9ecf2; }
 
 .color-dark-gray, .hljs-comment, .hljs-meta {
   color: #789; }
@@ -635,15 +667,23 @@ a.bg-dark-gray {
   a.bg-dark-gray:hover, a.bg-dark-gray:active {
     background: #d2d8dd; }
 
-.color-dark-gray-link a {
+.color-dark-gray-link {
   color: #789; }
-  .color-dark-gray-link a:hover, .color-dark-gray-link a:active {
+  .color-dark-gray-link:hover, .color-dark-gray-link:active {
     color: #d2d8dd; }
+  .color-dark-gray-link a {
+    color: #789; }
+    .color-dark-gray-link a:hover, .color-dark-gray-link a:active {
+      color: #d2d8dd; }
 
-.bg-dark-gray-link a {
+.bg-dark-gray-link {
   background: #789; }
-  .bg-dark-gray-link a:hover, .bg-dark-gray-link a:active {
+  .bg-dark-gray-link:hover, .bg-dark-gray-link:active {
     background: #d2d8dd; }
+  .bg-dark-gray-link a {
+    background: #789; }
+    .bg-dark-gray-link a:hover, .bg-dark-gray-link a:active {
+      background: #d2d8dd; }
 
 .color-superdark-gray {
   color: #444; }
@@ -661,15 +701,23 @@ a.bg-superdark-gray {
   a.bg-superdark-gray:hover, a.bg-superdark-gray:active {
     background: #789; }
 
-.color-superdark-gray-link a {
+.color-superdark-gray-link {
   color: #444; }
-  .color-superdark-gray-link a:hover, .color-superdark-gray-link a:active {
+  .color-superdark-gray-link:hover, .color-superdark-gray-link:active {
     color: #789; }
+  .color-superdark-gray-link a {
+    color: #444; }
+    .color-superdark-gray-link a:hover, .color-superdark-gray-link a:active {
+      color: #789; }
 
-.bg-superdark-gray-link a {
+.bg-superdark-gray-link {
   background: #444; }
-  .bg-superdark-gray-link a:hover, .bg-superdark-gray-link a:active {
+  .bg-superdark-gray-link:hover, .bg-superdark-gray-link:active {
     background: #789; }
+  .bg-superdark-gray-link a {
+    background: #444; }
+    .bg-superdark-gray-link a:hover, .bg-superdark-gray-link a:active {
+      background: #789; }
 
 .color-black {
   color: #012; }
@@ -687,15 +735,23 @@ a.bg-black, a.hljs {
   a.bg-black:hover, a.hljs:hover, a.bg-black:active, a.hljs:active {
     background: #444; }
 
-.color-black-link a {
+.color-black-link {
   color: #012; }
-  .color-black-link a:hover, .color-black-link a:active {
+  .color-black-link:hover, .color-black-link:active {
     color: #444; }
+  .color-black-link a {
+    color: #012; }
+    .color-black-link a:hover, .color-black-link a:active {
+      color: #444; }
 
-.bg-black-link a {
+.bg-black-link {
   background: #012; }
-  .bg-black-link a:hover, .bg-black-link a:active {
+  .bg-black-link:hover, .bg-black-link:active {
     background: #444; }
+  .bg-black-link a {
+    background: #012; }
+    .bg-black-link a:hover, .bg-black-link a:active {
+      background: #444; }
 
 .color-red, .hljs-variable, .hljs-name, .hljs-deletion {
   color: #f79; }
@@ -713,15 +769,23 @@ a.bg-red {
   a.bg-red:hover, a.bg-red:active {
     background: #f9b; }
 
-.color-red-link a {
+.color-red-link {
   color: #f79; }
-  .color-red-link a:hover, .color-red-link a:active {
+  .color-red-link:hover, .color-red-link:active {
     color: #f9b; }
+  .color-red-link a {
+    color: #f79; }
+    .color-red-link a:hover, .color-red-link a:active {
+      color: #f9b; }
 
-.bg-red-link a {
+.bg-red-link {
   background: #f79; }
-  .bg-red-link a:hover, .bg-red-link a:active {
+  .bg-red-link:hover, .bg-red-link:active {
     background: #f9b; }
+  .bg-red-link a {
+    background: #f79; }
+    .bg-red-link a:hover, .bg-red-link a:active {
+      background: #f9b; }
 
 .color-light-red {
   color: #f9b; }
@@ -739,15 +803,23 @@ a.bg-light-red {
   a.bg-light-red:hover, a.bg-light-red:active {
     background: #f79; }
 
-.color-light-red-link a {
+.color-light-red-link {
   color: #f9b; }
-  .color-light-red-link a:hover, .color-light-red-link a:active {
+  .color-light-red-link:hover, .color-light-red-link:active {
     color: #f79; }
+  .color-light-red-link a {
+    color: #f9b; }
+    .color-light-red-link a:hover, .color-light-red-link a:active {
+      color: #f79; }
 
-.bg-light-red-link a {
+.bg-light-red-link {
   background: #f9b; }
-  .bg-light-red-link a:hover, .bg-light-red-link a:active {
+  .bg-light-red-link:hover, .bg-light-red-link:active {
     background: #f79; }
+  .bg-light-red-link a {
+    background: #f9b; }
+    .bg-light-red-link a:hover, .bg-light-red-link a:active {
+      background: #f79; }
 
 .color-green, .hljs-addition {
   color: #7a8; }
@@ -765,15 +837,23 @@ a.bg-green {
   a.bg-green:hover, a.bg-green:active {
     background: #9ca; }
 
-.color-green-link a {
+.color-green-link {
   color: #7a8; }
-  .color-green-link a:hover, .color-green-link a:active {
+  .color-green-link:hover, .color-green-link:active {
     color: #9ca; }
+  .color-green-link a {
+    color: #7a8; }
+    .color-green-link a:hover, .color-green-link a:active {
+      color: #9ca; }
 
-.bg-green-link a {
+.bg-green-link {
   background: #7a8; }
-  .bg-green-link a:hover, .bg-green-link a:active {
+  .bg-green-link:hover, .bg-green-link:active {
     background: #9ca; }
+  .bg-green-link a {
+    background: #7a8; }
+    .bg-green-link a:hover, .bg-green-link a:active {
+      background: #9ca; }
 
 .color-light-green, .hljs-string {
   color: #9ca; }
@@ -791,15 +871,23 @@ a.bg-light-green {
   a.bg-light-green:hover, a.bg-light-green:active {
     background: #7a8; }
 
-.color-light-green-link a {
+.color-light-green-link {
   color: #9ca; }
-  .color-light-green-link a:hover, .color-light-green-link a:active {
+  .color-light-green-link:hover, .color-light-green-link:active {
     color: #7a8; }
+  .color-light-green-link a {
+    color: #9ca; }
+    .color-light-green-link a:hover, .color-light-green-link a:active {
+      color: #7a8; }
 
-.bg-light-green-link a {
+.bg-light-green-link {
   background: #9ca; }
-  .bg-light-green-link a:hover, .bg-light-green-link a:active {
+  .bg-light-green-link:hover, .bg-light-green-link:active {
     background: #7a8; }
+  .bg-light-green-link a {
+    background: #9ca; }
+    .bg-light-green-link a:hover, .bg-light-green-link a:active {
+      background: #7a8; }
 
 .color-blue {
   color: #78a; }
@@ -817,15 +905,23 @@ a.bg-blue {
   a.bg-blue:hover, a.bg-blue:active {
     background: #9ac; }
 
-.color-blue-link a {
+.color-blue-link {
   color: #78a; }
-  .color-blue-link a:hover, .color-blue-link a:active {
+  .color-blue-link:hover, .color-blue-link:active {
     color: #9ac; }
+  .color-blue-link a {
+    color: #78a; }
+    .color-blue-link a:hover, .color-blue-link a:active {
+      color: #9ac; }
 
-.bg-blue-link a {
+.bg-blue-link {
   background: #78a; }
-  .bg-blue-link a:hover, .bg-blue-link a:active {
+  .bg-blue-link:hover, .bg-blue-link:active {
     background: #9ac; }
+  .bg-blue-link a {
+    background: #78a; }
+    .bg-blue-link a:hover, .bg-blue-link a:active {
+      background: #9ac; }
 
 .color-light-blue, .hljs-title {
   color: #9ac; }
@@ -843,15 +939,23 @@ a.bg-light-blue {
   a.bg-light-blue:hover, a.bg-light-blue:active {
     background: #78a; }
 
-.color-light-blue-link a {
+.color-light-blue-link {
   color: #9ac; }
-  .color-light-blue-link a:hover, .color-light-blue-link a:active {
+  .color-light-blue-link:hover, .color-light-blue-link:active {
     color: #78a; }
+  .color-light-blue-link a {
+    color: #9ac; }
+    .color-light-blue-link a:hover, .color-light-blue-link a:active {
+      color: #78a; }
 
-.bg-light-blue-link a {
+.bg-light-blue-link {
   background: #9ac; }
-  .bg-light-blue-link a:hover, .bg-light-blue-link a:active {
+  .bg-light-blue-link:hover, .bg-light-blue-link:active {
     background: #78a; }
+  .bg-light-blue-link a {
+    background: #9ac; }
+    .bg-light-blue-link a:hover, .bg-light-blue-link a:active {
+      background: #78a; }
 
 .color-purple {
   color: #979; }
@@ -869,15 +973,23 @@ a.bg-purple {
   a.bg-purple:hover, a.bg-purple:active {
     background: #b9b; }
 
-.color-purple-link a {
+.color-purple-link {
   color: #979; }
-  .color-purple-link a:hover, .color-purple-link a:active {
+  .color-purple-link:hover, .color-purple-link:active {
     color: #b9b; }
+  .color-purple-link a {
+    color: #979; }
+    .color-purple-link a:hover, .color-purple-link a:active {
+      color: #b9b; }
 
-.bg-purple-link a {
+.bg-purple-link {
   background: #979; }
-  .bg-purple-link a:hover, .bg-purple-link a:active {
+  .bg-purple-link:hover, .bg-purple-link:active {
     background: #b9b; }
+  .bg-purple-link a {
+    background: #979; }
+    .bg-purple-link a:hover, .bg-purple-link a:active {
+      background: #b9b; }
 
 .color-light-purple, .hljs-keyword {
   color: #b9b; }
@@ -895,15 +1007,23 @@ a.bg-light-purple {
   a.bg-light-purple:hover, a.bg-light-purple:active {
     background: #979; }
 
-.color-light-purple-link a {
+.color-light-purple-link {
   color: #b9b; }
-  .color-light-purple-link a:hover, .color-light-purple-link a:active {
+  .color-light-purple-link:hover, .color-light-purple-link:active {
     color: #979; }
+  .color-light-purple-link a {
+    color: #b9b; }
+    .color-light-purple-link a:hover, .color-light-purple-link a:active {
+      color: #979; }
 
-.bg-light-purple-link a {
+.bg-light-purple-link {
   background: #b9b; }
-  .bg-light-purple-link a:hover, .bg-light-purple-link a:active {
+  .bg-light-purple-link:hover, .bg-light-purple-link:active {
     background: #979; }
+  .bg-light-purple-link a {
+    background: #b9b; }
+    .bg-light-purple-link a:hover, .bg-light-purple-link a:active {
+      background: #979; }
 
 .color-orange, .hljs-attr {
   color: #d85; }
@@ -921,15 +1041,23 @@ a.bg-orange {
   a.bg-orange:hover, a.bg-orange:active {
     background: #ea7; }
 
-.color-orange-link a {
+.color-orange-link {
   color: #d85; }
-  .color-orange-link a:hover, .color-orange-link a:active {
+  .color-orange-link:hover, .color-orange-link:active {
     color: #ea7; }
+  .color-orange-link a {
+    color: #d85; }
+    .color-orange-link a:hover, .color-orange-link a:active {
+      color: #ea7; }
 
-.bg-orange-link a {
+.bg-orange-link {
   background: #d85; }
-  .bg-orange-link a:hover, .bg-orange-link a:active {
+  .bg-orange-link:hover, .bg-orange-link:active {
     background: #ea7; }
+  .bg-orange-link a {
+    background: #d85; }
+    .bg-orange-link a:hover, .bg-orange-link a:active {
+      background: #ea7; }
 
 .color-light-orange {
   color: #ea7; }
@@ -947,15 +1075,23 @@ a.bg-light-orange {
   a.bg-light-orange:hover, a.bg-light-orange:active {
     background: #d85; }
 
-.color-light-orange-link a {
+.color-light-orange-link {
   color: #ea7; }
-  .color-light-orange-link a:hover, .color-light-orange-link a:active {
+  .color-light-orange-link:hover, .color-light-orange-link:active {
     color: #d85; }
+  .color-light-orange-link a {
+    color: #ea7; }
+    .color-light-orange-link a:hover, .color-light-orange-link a:active {
+      color: #d85; }
 
-.bg-light-orange-link a {
+.bg-light-orange-link {
   background: #ea7; }
-  .bg-light-orange-link a:hover, .bg-light-orange-link a:active {
+  .bg-light-orange-link:hover, .bg-light-orange-link:active {
     background: #d85; }
+  .bg-light-orange-link a {
+    background: #ea7; }
+    .bg-light-orange-link a:hover, .bg-light-orange-link a:active {
+      background: #d85; }
 
 .form {
   width: 100%;
@@ -1057,6 +1193,18 @@ a.bg-light-orange {
   .grid > .twelve {
     width: 100%; }
 
+@media screen and (max-width: 360px) {
+  .hide-mobile {
+    display: none; } }
+
+@media screen and (min-width: 360px) and (max-width: 550px) {
+  .hide-tablet {
+    display: none; } }
+
+@media screen and (min-width: 550px) {
+  .hide-desktop {
+    display: none; } }
+
 .layout {
   width: 100%; }
   .layout .layout-content-scroll {
@@ -1074,106 +1222,106 @@ a.bg-light-orange {
       display: flex;
       margin-left: auto;
       margin-right: auto; }
-    .layout > .layout-content.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header {
+    .layout > .layout-content.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header {
       min-height: calc(100vh - 50px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-scroll {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll {
         height: calc(100vh - 50px); }
-      .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header, .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header {
+      .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header, .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header {
         min-height: calc(100vh - 50px - 70px); }
-        .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll {
           height: calc(100vh - 50px - 70px); }
-      .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 40px); }
-        .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 40px); }
-      .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 70px - 40px); }
-        .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 70px - 40px); }
-      .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header, .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header {
+      .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header, .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header {
         min-height: calc(100vh - 50px - 70px); }
-        .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll {
           height: calc(100vh - 50px - 70px); }
-      .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 40px); }
-        .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 40px); }
-      .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 70px - 40px); }
-        .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 70px - 40px); }
-    .layout > .layout-content.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer {
+    .layout > .layout-content.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer {
       min-height: calc(100vh - 35px); }
-      .layout > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll {
+      .layout > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll {
         height: calc(100vh - 35px); }
-      .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header, .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header {
+      .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header, .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header {
         min-height: calc(100vh - 35px - 70px); }
-        .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll {
           height: calc(100vh - 35px - 70px); }
-      .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer {
         min-height: calc(100vh - 35px - 40px); }
-        .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 35px - 40px); }
-      .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer {
         min-height: calc(100vh - 35px - 70px - 40px); }
-        .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 35px - 70px - 40px); }
-      .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header, .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header {
+      .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header, .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header {
         min-height: calc(100vh - 35px - 70px); }
-        .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll {
           height: calc(100vh - 35px - 70px); }
-      .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer {
         min-height: calc(100vh - 35px - 40px); }
-        .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 35px - 40px); }
-      .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer {
         min-height: calc(100vh - 35px - 70px - 40px); }
-        .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 35px - 70px - 40px); }
-    .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer {
+    .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer {
       min-height: calc(100vh - 50px - 35px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll {
         height: calc(100vh - 50px - 35px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header {
         min-height: calc(100vh - 50px - 35px - 70px); }
-        .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll {
           height: calc(100vh - 50px - 35px - 70px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 35px - 40px); }
-        .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 35px - 40px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 35px - 70px - 40px); }
-        .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-main > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-main > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 35px - 70px - 40px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header {
         min-height: calc(100vh - 50px - 35px - 70px); }
-        .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-scroll {
           height: calc(100vh - 50px - 35px - 70px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 35px - 40px); }
-        .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 35px - 40px); }
-      .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer {
+      .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer {
         min-height: calc(100vh - 50px - 35px - 70px - 40px); }
-        .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer .layout-sub > .layout-content-scroll.layout-content-calc-header.layout-content-calc-footer.layout-content-scroll {
+        .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll, .layout > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer .layout-column-sub > .layout-content-scroll.layout-content-adjust-header.layout-content-adjust-footer.layout-content-scroll {
           height: calc(100vh - 50px - 35px - 70px - 40px); }
-    .layout > .layout-content .layout-main, .layout > .layout-content-scroll .layout-main {
+    .layout > .layout-content .layout-column-main, .layout > .layout-content-scroll .layout-column-main {
       max-width: 1000px;
       width: 0%;
       flex: 1;
       margin-left: auto;
       margin-right: auto; }
-      .layout > .layout-content .layout-main .layout-header, .layout > .layout-content-scroll .layout-main .layout-header {
+      .layout > .layout-content .layout-column-main .layout-header, .layout > .layout-content-scroll .layout-column-main .layout-header {
         height: 70px; }
-      .layout > .layout-content .layout-main .layout-footer, .layout > .layout-content-scroll .layout-main .layout-footer {
+      .layout > .layout-content .layout-column-main .layout-footer, .layout > .layout-content-scroll .layout-column-main .layout-footer {
         min-height: 40px; }
-    .layout > .layout-content .layout-sub, .layout > .layout-content-scroll .layout-sub {
+    .layout > .layout-content .layout-column-sub, .layout > .layout-content-scroll .layout-column-sub {
       min-width: 250px;
       width: 250px; }
-      .layout > .layout-content .layout-sub .layout-header, .layout > .layout-content-scroll .layout-sub .layout-header {
+      .layout > .layout-content .layout-column-sub .layout-header, .layout > .layout-content-scroll .layout-column-sub .layout-header {
         height: 70px; }
-      .layout > .layout-content .layout-sub .layout-footer, .layout > .layout-content-scroll .layout-sub .layout-footer {
+      .layout > .layout-content .layout-column-sub .layout-footer, .layout > .layout-content-scroll .layout-column-sub .layout-footer {
         min-height: 40px; }
 
 dl.list {
