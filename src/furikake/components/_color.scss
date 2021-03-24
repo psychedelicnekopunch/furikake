@@ -42,6 +42,10 @@ $colors: (
 		}
 	}
 	.color-#{$default}-link {
+		color: map-get($colors, $default);
+		&:hover, &:active {
+			color: map-get($colors, $action);
+		}
 		a {
 			color: map-get($colors, $default);
 			&:hover, &:active {
@@ -50,6 +54,10 @@ $colors: (
 		}
 	}
 	.bg-#{$default}-link {
+		background: map-get($colors, $default);
+		&:hover, &:active {
+			background: map-get($colors, $action);
+		}
 		a {
 			background: map-get($colors, $default);
 			&:hover, &:active {

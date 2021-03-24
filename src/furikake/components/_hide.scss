@@ -1,0 +1,17 @@
+.hide {
+	&-mobile {
+		@include mobile {
+			display: none;
+		}
+	}
+	&-tablet {
+		@include tablet {
+			display: none;
+		}
+	}
+	&-desktop {
+		@include desktop {
+			display: none;
+		}
+	}
+}
