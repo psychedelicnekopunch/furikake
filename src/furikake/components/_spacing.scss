@@ -9,6 +9,7 @@ $padding-sizes: (
 	"medium": $padding-medium,
 	"large": $padding-large,
 	"xlarge": $padding-xlarge,
+	"0": 0,
 );
 
 @each $padding in $paddings {
@@ -33,6 +34,7 @@ $margin-sizes: (
 	"medium": $margin-medium,
 	"large": $margin-large,
 	"xlarge": $margin-xlarge,
+	"0": 0,
 );
 
 @each $margin in $margins {
