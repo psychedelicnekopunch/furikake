@@ -1422,6 +1422,9 @@ dl.list {
 .padding-0 {
   padding: 0; }
 
+.padding-auto {
+  padding: auto; }
+
 .padding-top-xsmall {
   padding-top: 2px; }
 
@@ -1439,6 +1442,9 @@ dl.list {
 
 .padding-top-0 {
   padding-top: 0; }
+
+.padding-top-auto {
+  padding-top: auto; }
 
 .padding-left-xsmall {
   padding-left: 2px; }
@@ -1458,6 +1464,9 @@ dl.list {
 .padding-left-0 {
   padding-left: 0; }
 
+.padding-left-auto {
+  padding-left: auto; }
+
 .padding-bottom-xsmall {
   padding-bottom: 2px; }
 
@@ -1476,6 +1485,9 @@ dl.list {
 .padding-bottom-0 {
   padding-bottom: 0; }
 
+.padding-bottom-auto {
+  padding-bottom: auto; }
+
 .padding-right-xsmall {
   padding-right: 2px; }
 
@@ -1493,6 +1505,9 @@ dl.list {
 
 .padding-right-0 {
   padding-right: 0; }
+
+.padding-right-auto {
+  padding-right: auto; }
 
 /**
  * Margin
@@ -1516,6 +1531,9 @@ dl.list {
 .margin-0 {
   margin: 0; }
 
+.margin-auto {
+  margin: auto; }
+
 .margin-top-xsmall {
   margin-top: 2px; }
 
@@ -1533,6 +1551,9 @@ dl.list {
 
 .margin-top-0 {
   margin-top: 0; }
+
+.margin-top-auto {
+  margin-top: auto; }
 
 .margin-left-xsmall {
   margin-left: 2px; }
@@ -1552,6 +1573,9 @@ dl.list {
 .margin-left-0 {
   margin-left: 0; }
 
+.margin-left-auto {
+  margin-left: auto; }
+
 .margin-bottom-xsmall {
   margin-bottom: 2px; }
 
@@ -1570,6 +1594,9 @@ dl.list {
 .margin-bottom-0 {
   margin-bottom: 0; }
 
+.margin-bottom-auto {
+  margin-bottom: auto; }
+
 .margin-right-xsmall {
   margin-right: 2px; }
 
@@ -1587,6 +1614,9 @@ dl.list {
 
 .margin-right-0 {
   margin-right: 0; }
+
+.margin-right-auto {
+  margin-right: auto; }
 
 /**
  * Headline

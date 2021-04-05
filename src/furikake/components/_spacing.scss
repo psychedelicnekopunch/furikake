@@ -10,6 +10,7 @@ $padding-sizes: (
 	"large": $padding-large,
 	"xlarge": $padding-xlarge,
 	"0": 0,
+	"auto": auto,
 );
 
 @each $padding in $paddings {
@@ -35,6 +36,7 @@ $margin-sizes: (
 	"large": $margin-large,
 	"xlarge": $margin-xlarge,
 	"0": 0,
+	"auto": auto,
 );
 
 @each $margin in $margins {
