@@ -19,11 +19,11 @@
 
 </style>
 
-<div class="layout">
+<div class="layout dashboard">
 	<header class="layout-header bg-dark-gray color-white-link padding-medium">
 		<Header didClick={ didClickHeaderBars }/>
 	</header>
-	<div class="layout-content layout-content-adjust-header layout-content-adjust-footer">
+	<div class="layout-content layout-adjust-header layout-adjust-footer">
 		<div class="layout-column">
 			<div class="layout-column-sub bg-superlight-gray hide-mobile hide-tablet">
 				<header class="layout-header padding-medium">
@@ -31,7 +31,7 @@
 						<Version/>
 					</div>
 				</header>
-				<div class="layout-content-scroll layout-content-adjust-header layout-content-adjust-footer">
+				<div class="layout-content layout-adjust-header layout-adjust-footer">
 					<Nav category={ category } article={ article }/>
 				</div>
 				<footer class="layout-footer padding-small">
@@ -39,7 +39,7 @@
 				</footer>
 			</div>
 			<div class="layout-column-main">
-				<div class="layout-content-scroll layout-content-adjust-footer padding-medium">
+				<div class="layout-content layout-adjust-footer padding-medium">
 					<Article category={ category } article={ article }/>
 				</div>
 				<footer class="layout-footer padding-small">
