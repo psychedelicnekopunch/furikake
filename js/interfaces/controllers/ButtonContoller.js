@@ -18,8 +18,6 @@ class ButtonContoller {
 				article: 'index',
 			},
 		})
-		// console.log(hljs)
-		// hljs.highlightAll()
 		document.querySelectorAll('pre code').forEach((block) => {
 			hljs.highlightBlock(block);
 		});
