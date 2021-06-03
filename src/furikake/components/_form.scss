@@ -7,25 +7,31 @@
 		&[type=password],
 		&[type=email],
 		&[type=number] {
-			@extend .font-default;
+			@extend .font-small;
+			@extend .padding-medium;
+			@extend .margin-bottom-small;
 			width: 100%;
 			background: $input-bg-color;
 			color: $input-font-color;
 			border: $input-border;
-			padding: 8px;
-			margin: 0 0 2px;
+			&::placeholder {
+				color: $input-placeholder-color;
+			}
 		}
 	}
 	textarea {
-		@extend .font-default;
+		@extend .font-small;
+		@extend .padding-medium;
+		@extend .margin-bottom-small;
 		width: 100%;
 		min-height: 150px;
 		background: $input-bg-color;
 		color: $input-font-color;
 		border: $input-border;
-		padding: 8px;
-		margin: 0 0 12px;
 		resize: vertical;
+		&::placeholder {
+			color: $input-placeholder-color;
+		}
 	}
 	label {
 		display: inline-block;
@@ -48,38 +54,40 @@
 		margin-bottom: 12px;
 	}
 	.form-input {
-		@extend .font-default;
+		@extend .font-small;
+		@extend .padding-medium;
+		@extend .margin-bottom-small;
 		width: 100%;
 		background: $input-bg-color;
 		text-align: left;
 		color: $input-font-color;
 		border: $input-border;
-		padding: 8px;
-		margin: 0 0 12px;
 	}
 	.form-error {
+		@extend .padding-medium;
+		@extend .margin-top-medium;
+		@extend .margin-bottom-medium;
 		background: $color-red;
 		color: $color-white;
-		padding: 5px 8px;
-		margin: 10px 0;
 	}
 	.form-success {
+		@extend .padding-medium;
+		@extend .margin-top-medium;
+		@extend .margin-bottom-medium;
 		background: $color-green;
 		color: $color-white;
-		padding: 5px 8px;
-		margin: 10px 0;
 	}
 	.form-title {
-		@extend .font-small;
+		@extend .font-xsmall;
+		@extend .margin-bottom-xsmall;
 		color: $color-dark-gray;
 		// color: $color-superdark-gray;
-		padding-bottom: 3px;
 	}
 	ul.form-list {
 		> li {
-			padding-bottom: 20px;
+			@extend .padding-bottom-large;
 			&:last-child {
-				padding-bottom: 0;
+				@extend .padding-bottom-0;
 			}
 		}
 	}
