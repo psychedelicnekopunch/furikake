@@ -455,17 +455,17 @@ a.button, button.button, div.button {
     background: #012;
     color: #f7f8f9; }
     a.button.primary:hover, a.button.primary:active, button.button.primary:hover, button.button.primary:active, div.button.primary:hover, div.button.primary:active {
-      background: #444;
+      background: #234;
       color: #fff; }
   a.button.secondary, button.button.secondary, div.button.secondary {
     background: #d2d8dd;
-    color: #444; }
+    color: #234; }
     a.button.secondary:hover, a.button.secondary:active, button.button.secondary:hover, button.button.secondary:active, div.button.secondary:hover, div.button.secondary:active {
       background: #eee;
       color: #5a6066; }
   a.button.default, button.button.default, div.button.default {
     background: #e9ecf2;
-    color: #444; }
+    color: #234; }
     a.button.default:hover, a.button.default:active, button.button.default:hover, button.button.default:active, div.button.default:hover, div.button.default:active {
       background: #f7f8f9;
       color: #5a6066; }
@@ -531,23 +531,15 @@ a.bg-white {
   a.bg-white:hover, a.bg-white:active {
     background: #f7f8f9; }
 
-.color-white-link {
+.color-white-link a {
   color: #fff; }
-  .color-white-link:hover, .color-white-link:active {
+  .color-white-link a:hover, .color-white-link a:active {
     color: #f7f8f9; }
-  .color-white-link a {
-    color: #fff; }
-    .color-white-link a:hover, .color-white-link a:active {
-      color: #f7f8f9; }
 
-.bg-white-link {
+.bg-white-link a {
   background: #fff; }
-  .bg-white-link:hover, .bg-white-link:active {
+  .bg-white-link a:hover, .bg-white-link a:active {
     background: #f7f8f9; }
-  .bg-white-link a {
-    background: #fff; }
-    .bg-white-link a:hover, .bg-white-link a:active {
-      background: #f7f8f9; }
 
 a.color-white-reverse {
   color: #fff; }
@@ -562,29 +554,18 @@ a.bg-white-reverse {
     background: none;
     color: #fff; }
 
-.color-white-link-reverse {
+.color-white-link-reverse a {
   color: #fff; }
-  .color-white-link-reverse:hover, .color-white-link-reverse:active {
+  .color-white-link-reverse a:hover, .color-white-link-reverse a:active {
     background: #fff;
     color: #fff; }
-  .color-white-link-reverse a {
-    color: #fff; }
-    .color-white-link-reverse a:hover, .color-white-link-reverse a:active {
-      background: #fff;
-      color: #fff; }
 
-.bg-white-link-reverse {
+.bg-white-link-reverse a {
   background: #fff;
   color: #fff; }
-  .bg-white-link-reverse:hover, .bg-white-link-reverse:active {
+  .bg-white-link-reverse a:hover, .bg-white-link-reverse a:active {
     background: none;
     color: #fff; }
-  .bg-white-link-reverse a {
-    background: #fff;
-    color: #fff; }
-    .bg-white-link-reverse a:hover, .bg-white-link-reverse a:active {
-      background: none;
-      color: #fff; }
 
 .color-superlight-gray {
   color: #f7f8f9; }
@@ -602,23 +583,15 @@ a.bg-superlight-gray {
   a.bg-superlight-gray:hover, a.bg-superlight-gray:active {
     background: #fff; }
 
-.color-superlight-gray-link {
+.color-superlight-gray-link a {
   color: #f7f8f9; }
-  .color-superlight-gray-link:hover, .color-superlight-gray-link:active {
+  .color-superlight-gray-link a:hover, .color-superlight-gray-link a:active {
     color: #fff; }
-  .color-superlight-gray-link a {
-    color: #f7f8f9; }
-    .color-superlight-gray-link a:hover, .color-superlight-gray-link a:active {
-      color: #fff; }
 
-.bg-superlight-gray-link {
+.bg-superlight-gray-link a {
   background: #f7f8f9; }
-  .bg-superlight-gray-link:hover, .bg-superlight-gray-link:active {
+  .bg-superlight-gray-link a:hover, .bg-superlight-gray-link a:active {
     background: #fff; }
-  .bg-superlight-gray-link a {
-    background: #f7f8f9; }
-    .bg-superlight-gray-link a:hover, .bg-superlight-gray-link a:active {
-      background: #fff; }
 
 a.color-superlight-gray-reverse {
   color: #f7f8f9; }
@@ -633,29 +606,18 @@ a.bg-superlight-gray-reverse {
     background: none;
     color: #f7f8f9; }
 
-.color-superlight-gray-link-reverse {
+.color-superlight-gray-link-reverse a {
   color: #f7f8f9; }
-  .color-superlight-gray-link-reverse:hover, .color-superlight-gray-link-reverse:active {
+  .color-superlight-gray-link-reverse a:hover, .color-superlight-gray-link-reverse a:active {
     background: #f7f8f9;
     color: #fff; }
-  .color-superlight-gray-link-reverse a {
-    color: #f7f8f9; }
-    .color-superlight-gray-link-reverse a:hover, .color-superlight-gray-link-reverse a:active {
-      background: #f7f8f9;
-      color: #fff; }
 
-.bg-superlight-gray-link-reverse {
+.bg-superlight-gray-link-reverse a {
   background: #f7f8f9;
   color: #fff; }
-  .bg-superlight-gray-link-reverse:hover, .bg-superlight-gray-link-reverse:active {
+  .bg-superlight-gray-link-reverse a:hover, .bg-superlight-gray-link-reverse a:active {
     background: none;
     color: #f7f8f9; }
-  .bg-superlight-gray-link-reverse a {
-    background: #f7f8f9;
-    color: #fff; }
-    .bg-superlight-gray-link-reverse a:hover, .bg-superlight-gray-link-reverse a:active {
-      background: none;
-      color: #f7f8f9; }
 
 .color-light-gray {
   color: #e9ecf2; }
@@ -673,23 +635,15 @@ a.bg-light-gray {
   a.bg-light-gray:hover, a.bg-light-gray:active {
     background: #f7f8f9; }
 
-.color-light-gray-link {
+.color-light-gray-link a {
   color: #e9ecf2; }
-  .color-light-gray-link:hover, .color-light-gray-link:active {
+  .color-light-gray-link a:hover, .color-light-gray-link a:active {
     color: #f7f8f9; }
-  .color-light-gray-link a {
-    color: #e9ecf2; }
-    .color-light-gray-link a:hover, .color-light-gray-link a:active {
-      color: #f7f8f9; }
 
-.bg-light-gray-link {
+.bg-light-gray-link a {
   background: #e9ecf2; }
-  .bg-light-gray-link:hover, .bg-light-gray-link:active {
+  .bg-light-gray-link a:hover, .bg-light-gray-link a:active {
     background: #f7f8f9; }
-  .bg-light-gray-link a {
-    background: #e9ecf2; }
-    .bg-light-gray-link a:hover, .bg-light-gray-link a:active {
-      background: #f7f8f9; }
 
 a.color-light-gray-reverse {
   color: #e9ecf2; }
@@ -704,29 +658,18 @@ a.bg-light-gray-reverse {
     background: none;
     color: #e9ecf2; }
 
-.color-light-gray-link-reverse {
+.color-light-gray-link-reverse a {
   color: #e9ecf2; }
-  .color-light-gray-link-reverse:hover, .color-light-gray-link-reverse:active {
+  .color-light-gray-link-reverse a:hover, .color-light-gray-link-reverse a:active {
     background: #e9ecf2;
     color: #fff; }
-  .color-light-gray-link-reverse a {
-    color: #e9ecf2; }
-    .color-light-gray-link-reverse a:hover, .color-light-gray-link-reverse a:active {
-      background: #e9ecf2;
-      color: #fff; }
 
-.bg-light-gray-link-reverse {
+.bg-light-gray-link-reverse a {
   background: #e9ecf2;
   color: #fff; }
-  .bg-light-gray-link-reverse:hover, .bg-light-gray-link-reverse:active {
+  .bg-light-gray-link-reverse a:hover, .bg-light-gray-link-reverse a:active {
     background: none;
     color: #e9ecf2; }
-  .bg-light-gray-link-reverse a {
-    background: #e9ecf2;
-    color: #fff; }
-    .bg-light-gray-link-reverse a:hover, .bg-light-gray-link-reverse a:active {
-      background: none;
-      color: #e9ecf2; }
 
 .color-gray, .hljs-meta-keyword, .hljs-meta-string {
   color: #d2d8dd; }
@@ -744,23 +687,15 @@ a.bg-gray {
   a.bg-gray:hover, a.bg-gray:active {
     background: #e9ecf2; }
 
-.color-gray-link {
+.color-gray-link a {
   color: #d2d8dd; }
-  .color-gray-link:hover, .color-gray-link:active {
+  .color-gray-link a:hover, .color-gray-link a:active {
     color: #e9ecf2; }
-  .color-gray-link a {
-    color: #d2d8dd; }
-    .color-gray-link a:hover, .color-gray-link a:active {
-      color: #e9ecf2; }
 
-.bg-gray-link {
+.bg-gray-link a {
   background: #d2d8dd; }
-  .bg-gray-link:hover, .bg-gray-link:active {
+  .bg-gray-link a:hover, .bg-gray-link a:active {
     background: #e9ecf2; }
-  .bg-gray-link a {
-    background: #d2d8dd; }
-    .bg-gray-link a:hover, .bg-gray-link a:active {
-      background: #e9ecf2; }
 
 a.color-gray-reverse {
   color: #d2d8dd; }
@@ -775,29 +710,18 @@ a.bg-gray-reverse {
     background: none;
     color: #d2d8dd; }
 
-.color-gray-link-reverse {
+.color-gray-link-reverse a {
   color: #d2d8dd; }
-  .color-gray-link-reverse:hover, .color-gray-link-reverse:active {
+  .color-gray-link-reverse a:hover, .color-gray-link-reverse a:active {
     background: #d2d8dd;
     color: #fff; }
-  .color-gray-link-reverse a {
-    color: #d2d8dd; }
-    .color-gray-link-reverse a:hover, .color-gray-link-reverse a:active {
-      background: #d2d8dd;
-      color: #fff; }
 
-.bg-gray-link-reverse {
+.bg-gray-link-reverse a {
   background: #d2d8dd;
   color: #fff; }
-  .bg-gray-link-reverse:hover, .bg-gray-link-reverse:active {
+  .bg-gray-link-reverse a:hover, .bg-gray-link-reverse a:active {
     background: none;
     color: #d2d8dd; }
-  .bg-gray-link-reverse a {
-    background: #d2d8dd;
-    color: #fff; }
-    .bg-gray-link-reverse a:hover, .bg-gray-link-reverse a:active {
-      background: none;
-      color: #d2d8dd; }
 
 .color-dark-gray, .hljs-comment, .hljs-meta {
   color: #789; }
@@ -815,23 +739,15 @@ a.bg-dark-gray {
   a.bg-dark-gray:hover, a.bg-dark-gray:active {
     background: #d2d8dd; }
 
-.color-dark-gray-link {
+.color-dark-gray-link a {
   color: #789; }
-  .color-dark-gray-link:hover, .color-dark-gray-link:active {
+  .color-dark-gray-link a:hover, .color-dark-gray-link a:active {
     color: #d2d8dd; }
-  .color-dark-gray-link a {
-    color: #789; }
-    .color-dark-gray-link a:hover, .color-dark-gray-link a:active {
-      color: #d2d8dd; }
 
-.bg-dark-gray-link {
+.bg-dark-gray-link a {
   background: #789; }
-  .bg-dark-gray-link:hover, .bg-dark-gray-link:active {
+  .bg-dark-gray-link a:hover, .bg-dark-gray-link a:active {
     background: #d2d8dd; }
-  .bg-dark-gray-link a {
-    background: #789; }
-    .bg-dark-gray-link a:hover, .bg-dark-gray-link a:active {
-      background: #d2d8dd; }
 
 a.color-dark-gray-reverse {
   color: #789; }
@@ -846,100 +762,70 @@ a.bg-dark-gray-reverse {
     background: none;
     color: #789; }
 
-.color-dark-gray-link-reverse {
+.color-dark-gray-link-reverse a {
   color: #789; }
-  .color-dark-gray-link-reverse:hover, .color-dark-gray-link-reverse:active {
+  .color-dark-gray-link-reverse a:hover, .color-dark-gray-link-reverse a:active {
     background: #789;
     color: #fff; }
-  .color-dark-gray-link-reverse a {
-    color: #789; }
-    .color-dark-gray-link-reverse a:hover, .color-dark-gray-link-reverse a:active {
-      background: #789;
-      color: #fff; }
 
-.bg-dark-gray-link-reverse {
+.bg-dark-gray-link-reverse a {
   background: #789;
   color: #fff; }
-  .bg-dark-gray-link-reverse:hover, .bg-dark-gray-link-reverse:active {
+  .bg-dark-gray-link-reverse a:hover, .bg-dark-gray-link-reverse a:active {
     background: none;
     color: #789; }
-  .bg-dark-gray-link-reverse a {
-    background: #789;
-    color: #fff; }
-    .bg-dark-gray-link-reverse a:hover, .bg-dark-gray-link-reverse a:active {
-      background: none;
-      color: #789; }
 
 .color-superdark-gray {
-  color: #444; }
+  color: #234; }
 
 .bg-superdark-gray {
-  background: #444; }
+  background: #234; }
 
 a.color-superdark-gray {
-  color: #444; }
+  color: #234; }
   a.color-superdark-gray:hover, a.color-superdark-gray:active {
     color: #789; }
 
 a.bg-superdark-gray {
-  background: #444; }
+  background: #234; }
   a.bg-superdark-gray:hover, a.bg-superdark-gray:active {
     background: #789; }
 
-.color-superdark-gray-link {
-  color: #444; }
-  .color-superdark-gray-link:hover, .color-superdark-gray-link:active {
+.color-superdark-gray-link a {
+  color: #234; }
+  .color-superdark-gray-link a:hover, .color-superdark-gray-link a:active {
     color: #789; }
-  .color-superdark-gray-link a {
-    color: #444; }
-    .color-superdark-gray-link a:hover, .color-superdark-gray-link a:active {
-      color: #789; }
 
-.bg-superdark-gray-link {
-  background: #444; }
-  .bg-superdark-gray-link:hover, .bg-superdark-gray-link:active {
+.bg-superdark-gray-link a {
+  background: #234; }
+  .bg-superdark-gray-link a:hover, .bg-superdark-gray-link a:active {
     background: #789; }
-  .bg-superdark-gray-link a {
-    background: #444; }
-    .bg-superdark-gray-link a:hover, .bg-superdark-gray-link a:active {
-      background: #789; }
 
 a.color-superdark-gray-reverse {
-  color: #444; }
+  color: #234; }
   a.color-superdark-gray-reverse:hover, a.color-superdark-gray-reverse:active {
-    background: #444;
+    background: #234;
     color: #fff; }
 
 a.bg-superdark-gray-reverse {
-  background: #444;
+  background: #234;
   color: #fff; }
   a.bg-superdark-gray-reverse:hover, a.bg-superdark-gray-reverse:active {
     background: none;
-    color: #444; }
+    color: #234; }
 
-.color-superdark-gray-link-reverse {
-  color: #444; }
-  .color-superdark-gray-link-reverse:hover, .color-superdark-gray-link-reverse:active {
-    background: #444;
+.color-superdark-gray-link-reverse a {
+  color: #234; }
+  .color-superdark-gray-link-reverse a:hover, .color-superdark-gray-link-reverse a:active {
+    background: #234;
     color: #fff; }
-  .color-superdark-gray-link-reverse a {
-    color: #444; }
-    .color-superdark-gray-link-reverse a:hover, .color-superdark-gray-link-reverse a:active {
-      background: #444;
-      color: #fff; }
 
-.bg-superdark-gray-link-reverse {
-  background: #444;
+.bg-superdark-gray-link-reverse a {
+  background: #234;
   color: #fff; }
-  .bg-superdark-gray-link-reverse:hover, .bg-superdark-gray-link-reverse:active {
+  .bg-superdark-gray-link-reverse a:hover, .bg-superdark-gray-link-reverse a:active {
     background: none;
-    color: #444; }
-  .bg-superdark-gray-link-reverse a {
-    background: #444;
-    color: #fff; }
-    .bg-superdark-gray-link-reverse a:hover, .bg-superdark-gray-link-reverse a:active {
-      background: none;
-      color: #444; }
+    color: #234; }
 
 .color-black {
   color: #012; }
@@ -950,30 +836,22 @@ a.bg-superdark-gray-reverse {
 a.color-black {
   color: #012; }
   a.color-black:hover, a.color-black:active {
-    color: #444; }
+    color: #234; }
 
 a.bg-black, a.hljs {
   background: #012; }
   a.bg-black:hover, a.hljs:hover, a.bg-black:active, a.hljs:active {
-    background: #444; }
+    background: #234; }
 
-.color-black-link {
+.color-black-link a {
   color: #012; }
-  .color-black-link:hover, .color-black-link:active {
-    color: #444; }
-  .color-black-link a {
-    color: #012; }
-    .color-black-link a:hover, .color-black-link a:active {
-      color: #444; }
+  .color-black-link a:hover, .color-black-link a:active {
+    color: #234; }
 
-.bg-black-link {
+.bg-black-link a {
   background: #012; }
-  .bg-black-link:hover, .bg-black-link:active {
-    background: #444; }
-  .bg-black-link a {
-    background: #012; }
-    .bg-black-link a:hover, .bg-black-link a:active {
-      background: #444; }
+  .bg-black-link a:hover, .bg-black-link a:active {
+    background: #234; }
 
 a.color-black-reverse {
   color: #012; }
@@ -988,29 +866,18 @@ a.bg-black-reverse {
     background: none;
     color: #012; }
 
-.color-black-link-reverse {
+.color-black-link-reverse a {
   color: #012; }
-  .color-black-link-reverse:hover, .color-black-link-reverse:active {
+  .color-black-link-reverse a:hover, .color-black-link-reverse a:active {
     background: #012;
     color: #fff; }
-  .color-black-link-reverse a {
-    color: #012; }
-    .color-black-link-reverse a:hover, .color-black-link-reverse a:active {
-      background: #012;
-      color: #fff; }
 
-.bg-black-link-reverse {
+.bg-black-link-reverse a {
   background: #012;
   color: #fff; }
-  .bg-black-link-reverse:hover, .bg-black-link-reverse:active {
+  .bg-black-link-reverse a:hover, .bg-black-link-reverse a:active {
     background: none;
     color: #012; }
-  .bg-black-link-reverse a {
-    background: #012;
-    color: #fff; }
-    .bg-black-link-reverse a:hover, .bg-black-link-reverse a:active {
-      background: none;
-      color: #012; }
 
 .color-red, .hljs-variable, .hljs-name, .hljs-deletion {
   color: #f79; }
@@ -1028,23 +895,15 @@ a.bg-red {
   a.bg-red:hover, a.bg-red:active {
     background: #f9b; }
 
-.color-red-link {
+.color-red-link a {
   color: #f79; }
-  .color-red-link:hover, .color-red-link:active {
+  .color-red-link a:hover, .color-red-link a:active {
     color: #f9b; }
-  .color-red-link a {
-    color: #f79; }
-    .color-red-link a:hover, .color-red-link a:active {
-      color: #f9b; }
 
-.bg-red-link {
+.bg-red-link a {
   background: #f79; }
-  .bg-red-link:hover, .bg-red-link:active {
+  .bg-red-link a:hover, .bg-red-link a:active {
     background: #f9b; }
-  .bg-red-link a {
-    background: #f79; }
-    .bg-red-link a:hover, .bg-red-link a:active {
-      background: #f9b; }
 
 a.color-red-reverse {
   color: #f79; }
@@ -1059,29 +918,18 @@ a.bg-red-reverse {
     background: none;
     color: #f79; }
 
-.color-red-link-reverse {
+.color-red-link-reverse a {
   color: #f79; }
-  .color-red-link-reverse:hover, .color-red-link-reverse:active {
+  .color-red-link-reverse a:hover, .color-red-link-reverse a:active {
     background: #f79;
     color: #fff; }
-  .color-red-link-reverse a {
-    color: #f79; }
-    .color-red-link-reverse a:hover, .color-red-link-reverse a:active {
-      background: #f79;
-      color: #fff; }
 
-.bg-red-link-reverse {
+.bg-red-link-reverse a {
   background: #f79;
   color: #fff; }
-  .bg-red-link-reverse:hover, .bg-red-link-reverse:active {
+  .bg-red-link-reverse a:hover, .bg-red-link-reverse a:active {
     background: none;
     color: #f79; }
-  .bg-red-link-reverse a {
-    background: #f79;
-    color: #fff; }
-    .bg-red-link-reverse a:hover, .bg-red-link-reverse a:active {
-      background: none;
-      color: #f79; }
 
 .color-light-red {
   color: #f9b; }
@@ -1099,23 +947,15 @@ a.bg-light-red {
   a.bg-light-red:hover, a.bg-light-red:active {
     background: #f79; }
 
-.color-light-red-link {
+.color-light-red-link a {
   color: #f9b; }
-  .color-light-red-link:hover, .color-light-red-link:active {
+  .color-light-red-link a:hover, .color-light-red-link a:active {
     color: #f79; }
-  .color-light-red-link a {
-    color: #f9b; }
-    .color-light-red-link a:hover, .color-light-red-link a:active {
-      color: #f79; }
 
-.bg-light-red-link {
+.bg-light-red-link a {
   background: #f9b; }
-  .bg-light-red-link:hover, .bg-light-red-link:active {
+  .bg-light-red-link a:hover, .bg-light-red-link a:active {
     background: #f79; }
-  .bg-light-red-link a {
-    background: #f9b; }
-    .bg-light-red-link a:hover, .bg-light-red-link a:active {
-      background: #f79; }
 
 a.color-light-red-reverse {
   color: #f9b; }
@@ -1130,29 +970,18 @@ a.bg-light-red-reverse {
     background: none;
     color: #f9b; }
 
-.color-light-red-link-reverse {
+.color-light-red-link-reverse a {
   color: #f9b; }
-  .color-light-red-link-reverse:hover, .color-light-red-link-reverse:active {
+  .color-light-red-link-reverse a:hover, .color-light-red-link-reverse a:active {
     background: #f9b;
     color: #fff; }
-  .color-light-red-link-reverse a {
-    color: #f9b; }
-    .color-light-red-link-reverse a:hover, .color-light-red-link-reverse a:active {
-      background: #f9b;
-      color: #fff; }
 
-.bg-light-red-link-reverse {
+.bg-light-red-link-reverse a {
   background: #f9b;
   color: #fff; }
-  .bg-light-red-link-reverse:hover, .bg-light-red-link-reverse:active {
+  .bg-light-red-link-reverse a:hover, .bg-light-red-link-reverse a:active {
     background: none;
     color: #f9b; }
-  .bg-light-red-link-reverse a {
-    background: #f9b;
-    color: #fff; }
-    .bg-light-red-link-reverse a:hover, .bg-light-red-link-reverse a:active {
-      background: none;
-      color: #f9b; }
 
 .color-green, .hljs-addition {
   color: #7a8; }
@@ -1170,23 +999,15 @@ a.bg-green {
   a.bg-green:hover, a.bg-green:active {
     background: #9ca; }
 
-.color-green-link {
+.color-green-link a {
   color: #7a8; }
-  .color-green-link:hover, .color-green-link:active {
+  .color-green-link a:hover, .color-green-link a:active {
     color: #9ca; }
-  .color-green-link a {
-    color: #7a8; }
-    .color-green-link a:hover, .color-green-link a:active {
-      color: #9ca; }
 
-.bg-green-link {
+.bg-green-link a {
   background: #7a8; }
-  .bg-green-link:hover, .bg-green-link:active {
+  .bg-green-link a:hover, .bg-green-link a:active {
     background: #9ca; }
-  .bg-green-link a {
-    background: #7a8; }
-    .bg-green-link a:hover, .bg-green-link a:active {
-      background: #9ca; }
 
 a.color-green-reverse {
   color: #7a8; }
@@ -1201,29 +1022,18 @@ a.bg-green-reverse {
     background: none;
     color: #7a8; }
 
-.color-green-link-reverse {
+.color-green-link-reverse a {
   color: #7a8; }
-  .color-green-link-reverse:hover, .color-green-link-reverse:active {
+  .color-green-link-reverse a:hover, .color-green-link-reverse a:active {
     background: #7a8;
     color: #fff; }
-  .color-green-link-reverse a {
-    color: #7a8; }
-    .color-green-link-reverse a:hover, .color-green-link-reverse a:active {
-      background: #7a8;
-      color: #fff; }
 
-.bg-green-link-reverse {
+.bg-green-link-reverse a {
   background: #7a8;
   color: #fff; }
-  .bg-green-link-reverse:hover, .bg-green-link-reverse:active {
+  .bg-green-link-reverse a:hover, .bg-green-link-reverse a:active {
     background: none;
     color: #7a8; }
-  .bg-green-link-reverse a {
-    background: #7a8;
-    color: #fff; }
-    .bg-green-link-reverse a:hover, .bg-green-link-reverse a:active {
-      background: none;
-      color: #7a8; }
 
 .color-light-green, .hljs-string {
   color: #9ca; }
@@ -1241,23 +1051,15 @@ a.bg-light-green {
   a.bg-light-green:hover, a.bg-light-green:active {
     background: #7a8; }
 
-.color-light-green-link {
+.color-light-green-link a {
   color: #9ca; }
-  .color-light-green-link:hover, .color-light-green-link:active {
+  .color-light-green-link a:hover, .color-light-green-link a:active {
     color: #7a8; }
-  .color-light-green-link a {
-    color: #9ca; }
-    .color-light-green-link a:hover, .color-light-green-link a:active {
-      color: #7a8; }
 
-.bg-light-green-link {
+.bg-light-green-link a {
   background: #9ca; }
-  .bg-light-green-link:hover, .bg-light-green-link:active {
+  .bg-light-green-link a:hover, .bg-light-green-link a:active {
     background: #7a8; }
-  .bg-light-green-link a {
-    background: #9ca; }
-    .bg-light-green-link a:hover, .bg-light-green-link a:active {
-      background: #7a8; }
 
 a.color-light-green-reverse {
   color: #9ca; }
@@ -1272,29 +1074,18 @@ a.bg-light-green-reverse {
     background: none;
     color: #9ca; }
 
-.color-light-green-link-reverse {
+.color-light-green-link-reverse a {
   color: #9ca; }
-  .color-light-green-link-reverse:hover, .color-light-green-link-reverse:active {
+  .color-light-green-link-reverse a:hover, .color-light-green-link-reverse a:active {
     background: #9ca;
     color: #fff; }
-  .color-light-green-link-reverse a {
-    color: #9ca; }
-    .color-light-green-link-reverse a:hover, .color-light-green-link-reverse a:active {
-      background: #9ca;
-      color: #fff; }
 
-.bg-light-green-link-reverse {
+.bg-light-green-link-reverse a {
   background: #9ca;
   color: #fff; }
-  .bg-light-green-link-reverse:hover, .bg-light-green-link-reverse:active {
+  .bg-light-green-link-reverse a:hover, .bg-light-green-link-reverse a:active {
     background: none;
     color: #9ca; }
-  .bg-light-green-link-reverse a {
-    background: #9ca;
-    color: #fff; }
-    .bg-light-green-link-reverse a:hover, .bg-light-green-link-reverse a:active {
-      background: none;
-      color: #9ca; }
 
 .color-blue {
   color: #78a; }
@@ -1312,23 +1103,15 @@ a.bg-blue {
   a.bg-blue:hover, a.bg-blue:active {
     background: #9ac; }
 
-.color-blue-link {
+.color-blue-link a {
   color: #78a; }
-  .color-blue-link:hover, .color-blue-link:active {
+  .color-blue-link a:hover, .color-blue-link a:active {
     color: #9ac; }
-  .color-blue-link a {
-    color: #78a; }
-    .color-blue-link a:hover, .color-blue-link a:active {
-      color: #9ac; }
 
-.bg-blue-link {
+.bg-blue-link a {
   background: #78a; }
-  .bg-blue-link:hover, .bg-blue-link:active {
+  .bg-blue-link a:hover, .bg-blue-link a:active {
     background: #9ac; }
-  .bg-blue-link a {
-    background: #78a; }
-    .bg-blue-link a:hover, .bg-blue-link a:active {
-      background: #9ac; }
 
 a.color-blue-reverse {
   color: #78a; }
@@ -1343,29 +1126,18 @@ a.bg-blue-reverse {
     background: none;
     color: #78a; }
 
-.color-blue-link-reverse {
+.color-blue-link-reverse a {
   color: #78a; }
-  .color-blue-link-reverse:hover, .color-blue-link-reverse:active {
+  .color-blue-link-reverse a:hover, .color-blue-link-reverse a:active {
     background: #78a;
     color: #fff; }
-  .color-blue-link-reverse a {
-    color: #78a; }
-    .color-blue-link-reverse a:hover, .color-blue-link-reverse a:active {
-      background: #78a;
-      color: #fff; }
 
-.bg-blue-link-reverse {
+.bg-blue-link-reverse a {
   background: #78a;
   color: #fff; }
-  .bg-blue-link-reverse:hover, .bg-blue-link-reverse:active {
+  .bg-blue-link-reverse a:hover, .bg-blue-link-reverse a:active {
     background: none;
     color: #78a; }
-  .bg-blue-link-reverse a {
-    background: #78a;
-    color: #fff; }
-    .bg-blue-link-reverse a:hover, .bg-blue-link-reverse a:active {
-      background: none;
-      color: #78a; }
 
 .color-light-blue, .hljs-title {
   color: #9ac; }
@@ -1383,23 +1155,15 @@ a.bg-light-blue {
   a.bg-light-blue:hover, a.bg-light-blue:active {
     background: #78a; }
 
-.color-light-blue-link {
+.color-light-blue-link a {
   color: #9ac; }
-  .color-light-blue-link:hover, .color-light-blue-link:active {
+  .color-light-blue-link a:hover, .color-light-blue-link a:active {
     color: #78a; }
-  .color-light-blue-link a {
-    color: #9ac; }
-    .color-light-blue-link a:hover, .color-light-blue-link a:active {
-      color: #78a; }
 
-.bg-light-blue-link {
+.bg-light-blue-link a {
   background: #9ac; }
-  .bg-light-blue-link:hover, .bg-light-blue-link:active {
+  .bg-light-blue-link a:hover, .bg-light-blue-link a:active {
     background: #78a; }
-  .bg-light-blue-link a {
-    background: #9ac; }
-    .bg-light-blue-link a:hover, .bg-light-blue-link a:active {
-      background: #78a; }
 
 a.color-light-blue-reverse {
   color: #9ac; }
@@ -1414,29 +1178,18 @@ a.bg-light-blue-reverse {
     background: none;
     color: #9ac; }
 
-.color-light-blue-link-reverse {
+.color-light-blue-link-reverse a {
   color: #9ac; }
-  .color-light-blue-link-reverse:hover, .color-light-blue-link-reverse:active {
+  .color-light-blue-link-reverse a:hover, .color-light-blue-link-reverse a:active {
     background: #9ac;
     color: #fff; }
-  .color-light-blue-link-reverse a {
-    color: #9ac; }
-    .color-light-blue-link-reverse a:hover, .color-light-blue-link-reverse a:active {
-      background: #9ac;
-      color: #fff; }
 
-.bg-light-blue-link-reverse {
+.bg-light-blue-link-reverse a {
   background: #9ac;
   color: #fff; }
-  .bg-light-blue-link-reverse:hover, .bg-light-blue-link-reverse:active {
+  .bg-light-blue-link-reverse a:hover, .bg-light-blue-link-reverse a:active {
     background: none;
     color: #9ac; }
-  .bg-light-blue-link-reverse a {
-    background: #9ac;
-    color: #fff; }
-    .bg-light-blue-link-reverse a:hover, .bg-light-blue-link-reverse a:active {
-      background: none;
-      color: #9ac; }
 
 .color-purple {
   color: #979; }
@@ -1454,23 +1207,15 @@ a.bg-purple {
   a.bg-purple:hover, a.bg-purple:active {
     background: #b9b; }
 
-.color-purple-link {
+.color-purple-link a {
   color: #979; }
-  .color-purple-link:hover, .color-purple-link:active {
+  .color-purple-link a:hover, .color-purple-link a:active {
     color: #b9b; }
-  .color-purple-link a {
-    color: #979; }
-    .color-purple-link a:hover, .color-purple-link a:active {
-      color: #b9b; }
 
-.bg-purple-link {
+.bg-purple-link a {
   background: #979; }
-  .bg-purple-link:hover, .bg-purple-link:active {
+  .bg-purple-link a:hover, .bg-purple-link a:active {
     background: #b9b; }
-  .bg-purple-link a {
-    background: #979; }
-    .bg-purple-link a:hover, .bg-purple-link a:active {
-      background: #b9b; }
 
 a.color-purple-reverse {
   color: #979; }
@@ -1485,29 +1230,18 @@ a.bg-purple-reverse {
     background: none;
     color: #979; }
 
-.color-purple-link-reverse {
+.color-purple-link-reverse a {
   color: #979; }
-  .color-purple-link-reverse:hover, .color-purple-link-reverse:active {
+  .color-purple-link-reverse a:hover, .color-purple-link-reverse a:active {
     background: #979;
     color: #fff; }
-  .color-purple-link-reverse a {
-    color: #979; }
-    .color-purple-link-reverse a:hover, .color-purple-link-reverse a:active {
-      background: #979;
-      color: #fff; }
 
-.bg-purple-link-reverse {
+.bg-purple-link-reverse a {
   background: #979;
   color: #fff; }
-  .bg-purple-link-reverse:hover, .bg-purple-link-reverse:active {
+  .bg-purple-link-reverse a:hover, .bg-purple-link-reverse a:active {
     background: none;
     color: #979; }
-  .bg-purple-link-reverse a {
-    background: #979;
-    color: #fff; }
-    .bg-purple-link-reverse a:hover, .bg-purple-link-reverse a:active {
-      background: none;
-      color: #979; }
 
 .color-light-purple, .hljs-keyword {
   color: #b9b; }
@@ -1525,23 +1259,15 @@ a.bg-light-purple {
   a.bg-light-purple:hover, a.bg-light-purple:active {
     background: #979; }
 
-.color-light-purple-link {
+.color-light-purple-link a {
   color: #b9b; }
-  .color-light-purple-link:hover, .color-light-purple-link:active {
+  .color-light-purple-link a:hover, .color-light-purple-link a:active {
     color: #979; }
-  .color-light-purple-link a {
-    color: #b9b; }
-    .color-light-purple-link a:hover, .color-light-purple-link a:active {
-      color: #979; }
 
-.bg-light-purple-link {
+.bg-light-purple-link a {
   background: #b9b; }
-  .bg-light-purple-link:hover, .bg-light-purple-link:active {
+  .bg-light-purple-link a:hover, .bg-light-purple-link a:active {
     background: #979; }
-  .bg-light-purple-link a {
-    background: #b9b; }
-    .bg-light-purple-link a:hover, .bg-light-purple-link a:active {
-      background: #979; }
 
 a.color-light-purple-reverse {
   color: #b9b; }
@@ -1556,29 +1282,18 @@ a.bg-light-purple-reverse {
     background: none;
     color: #b9b; }
 
-.color-light-purple-link-reverse {
+.color-light-purple-link-reverse a {
   color: #b9b; }
-  .color-light-purple-link-reverse:hover, .color-light-purple-link-reverse:active {
+  .color-light-purple-link-reverse a:hover, .color-light-purple-link-reverse a:active {
     background: #b9b;
     color: #fff; }
-  .color-light-purple-link-reverse a {
-    color: #b9b; }
-    .color-light-purple-link-reverse a:hover, .color-light-purple-link-reverse a:active {
-      background: #b9b;
-      color: #fff; }
 
-.bg-light-purple-link-reverse {
+.bg-light-purple-link-reverse a {
   background: #b9b;
   color: #fff; }
-  .bg-light-purple-link-reverse:hover, .bg-light-purple-link-reverse:active {
+  .bg-light-purple-link-reverse a:hover, .bg-light-purple-link-reverse a:active {
     background: none;
     color: #b9b; }
-  .bg-light-purple-link-reverse a {
-    background: #b9b;
-    color: #fff; }
-    .bg-light-purple-link-reverse a:hover, .bg-light-purple-link-reverse a:active {
-      background: none;
-      color: #b9b; }
 
 .color-orange, .hljs-attr {
   color: #d85; }
@@ -1596,23 +1311,15 @@ a.bg-orange {
   a.bg-orange:hover, a.bg-orange:active {
     background: #ea7; }
 
-.color-orange-link {
+.color-orange-link a {
   color: #d85; }
-  .color-orange-link:hover, .color-orange-link:active {
+  .color-orange-link a:hover, .color-orange-link a:active {
     color: #ea7; }
-  .color-orange-link a {
-    color: #d85; }
-    .color-orange-link a:hover, .color-orange-link a:active {
-      color: #ea7; }
 
-.bg-orange-link {
+.bg-orange-link a {
   background: #d85; }
-  .bg-orange-link:hover, .bg-orange-link:active {
+  .bg-orange-link a:hover, .bg-orange-link a:active {
     background: #ea7; }
-  .bg-orange-link a {
-    background: #d85; }
-    .bg-orange-link a:hover, .bg-orange-link a:active {
-      background: #ea7; }
 
 a.color-orange-reverse {
   color: #d85; }
@@ -1627,29 +1334,18 @@ a.bg-orange-reverse {
     background: none;
     color: #d85; }
 
-.color-orange-link-reverse {
+.color-orange-link-reverse a {
   color: #d85; }
-  .color-orange-link-reverse:hover, .color-orange-link-reverse:active {
+  .color-orange-link-reverse a:hover, .color-orange-link-reverse a:active {
     background: #d85;
     color: #fff; }
-  .color-orange-link-reverse a {
-    color: #d85; }
-    .color-orange-link-reverse a:hover, .color-orange-link-reverse a:active {
-      background: #d85;
-      color: #fff; }
 
-.bg-orange-link-reverse {
+.bg-orange-link-reverse a {
   background: #d85;
   color: #fff; }
-  .bg-orange-link-reverse:hover, .bg-orange-link-reverse:active {
+  .bg-orange-link-reverse a:hover, .bg-orange-link-reverse a:active {
     background: none;
     color: #d85; }
-  .bg-orange-link-reverse a {
-    background: #d85;
-    color: #fff; }
-    .bg-orange-link-reverse a:hover, .bg-orange-link-reverse a:active {
-      background: none;
-      color: #d85; }
 
 .color-light-orange {
   color: #ea7; }
@@ -1667,23 +1363,15 @@ a.bg-light-orange {
   a.bg-light-orange:hover, a.bg-light-orange:active {
     background: #d85; }
 
-.color-light-orange-link {
+.color-light-orange-link a {
   color: #ea7; }
-  .color-light-orange-link:hover, .color-light-orange-link:active {
+  .color-light-orange-link a:hover, .color-light-orange-link a:active {
     color: #d85; }
-  .color-light-orange-link a {
-    color: #ea7; }
-    .color-light-orange-link a:hover, .color-light-orange-link a:active {
-      color: #d85; }
 
-.bg-light-orange-link {
+.bg-light-orange-link a {
   background: #ea7; }
-  .bg-light-orange-link:hover, .bg-light-orange-link:active {
+  .bg-light-orange-link a:hover, .bg-light-orange-link a:active {
     background: #d85; }
-  .bg-light-orange-link a {
-    background: #ea7; }
-    .bg-light-orange-link a:hover, .bg-light-orange-link a:active {
-      background: #d85; }
 
 a.color-light-orange-reverse {
   color: #ea7; }
@@ -1698,29 +1386,30 @@ a.bg-light-orange-reverse {
     background: none;
     color: #ea7; }
 
-.color-light-orange-link-reverse {
+.color-light-orange-link-reverse a {
   color: #ea7; }
-  .color-light-orange-link-reverse:hover, .color-light-orange-link-reverse:active {
+  .color-light-orange-link-reverse a:hover, .color-light-orange-link-reverse a:active {
     background: #ea7;
     color: #fff; }
-  .color-light-orange-link-reverse a {
-    color: #ea7; }
-    .color-light-orange-link-reverse a:hover, .color-light-orange-link-reverse a:active {
-      background: #ea7;
-      color: #fff; }
 
-.bg-light-orange-link-reverse {
+.bg-light-orange-link-reverse a {
   background: #ea7;
   color: #fff; }
-  .bg-light-orange-link-reverse:hover, .bg-light-orange-link-reverse:active {
+  .bg-light-orange-link-reverse a:hover, .bg-light-orange-link-reverse a:active {
     background: none;
     color: #ea7; }
-  .bg-light-orange-link-reverse a {
-    background: #ea7;
-    color: #fff; }
-    .bg-light-orange-link-reverse a:hover, .bg-light-orange-link-reverse a:active {
-      background: none;
-      color: #ea7; }
+
+.embed.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  z-index: 0; }
+  .embed.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 .form {
   width: 100%;
@@ -1729,26 +1418,26 @@ a.bg-light-orange-reverse {
   .form input[type=text], .form input[type=password], .form input[type=email], .form input[type=number] {
     width: 100%;
     background: #f7f8f9;
-    color: #444;
-    border: 0;
-    padding: 8px;
-    margin: 0 0 2px; }
+    color: #234;
+    border: 1px #eee solid; }
+    .form input[type=text]::placeholder, .form input[type=password]::placeholder, .form input[type=email]::placeholder, .form input[type=number]::placeholder {
+      color: #abc; }
   .form textarea {
     width: 100%;
     min-height: 150px;
     background: #f7f8f9;
-    color: #444;
-    border: 0;
-    padding: 8px;
-    margin: 0 0 12px;
+    color: #234;
+    border: 1px #eee solid;
     resize: vertical; }
+    .form textarea::placeholder {
+      color: #abc; }
   .form label {
     display: inline-block;
     margin: 0 10px 10px 0;
     cursor: pointer; }
     .form label > ul {
       display: flex;
-      border: 0;
+      border: 1px #eee solid;
       padding: 12px 14px; }
       .form label > ul > li {
         padding-right: 5px; }
@@ -1760,27 +1449,16 @@ a.bg-light-orange-reverse {
     width: 100%;
     background: #f7f8f9;
     text-align: left;
-    color: #444;
-    border: 0;
-    padding: 8px;
-    margin: 0 0 12px; }
+    color: #234;
+    border: 1px #eee solid; }
   .form .form-error {
     background: #f79;
-    color: #fff;
-    padding: 5px 8px;
-    margin: 10px 0; }
+    color: #fff; }
   .form .form-success {
     background: #7a8;
-    color: #fff;
-    padding: 5px 8px;
-    margin: 10px 0; }
+    color: #fff; }
   .form .form-title {
-    color: #789;
-    padding-bottom: 3px; }
-  .form ul.form-list > li {
-    padding-bottom: 20px; }
-    .form ul.form-list > li:last-child {
-      padding-bottom: 0; }
+    color: #789; }
 
 .grid {
   display: flex;
@@ -1950,7 +1628,7 @@ dl.list {
   margin-top: 30px; }
 
 .md h3 {
-  color: #444; }
+  color: #234; }
 
 .md p {
   color: #789;
@@ -1960,7 +1638,7 @@ dl.list {
   padding: 0 18px;
   margin-top: 8px;
   margin-bottom: 24px;
-  color: #444; }
+  color: #234; }
 
 .md ul > li {
   list-style-type: disc; }
@@ -2021,7 +1699,7 @@ dl.list {
 .padding-small {
   padding: 8px; }
 
-.padding-medium {
+.padding-medium, .form input[type=text], .form input[type=password], .form input[type=email], .form input[type=number], .form textarea, .form .form-input, .form .form-error, .form .form-success {
   padding: 12px; }
 
 .padding-large {
@@ -2087,13 +1765,13 @@ dl.list {
 .padding-bottom-medium {
   padding-bottom: 12px; }
 
-.padding-bottom-large {
+.padding-bottom-large, .form ul.form-list > li {
   padding-bottom: 24px; }
 
 .padding-bottom-xlarge {
   padding-bottom: 48px; }
 
-.padding-bottom-0 {
+.padding-bottom-0, .form ul.form-list > li:last-child {
   padding-bottom: 0; }
 
 .padding-bottom-auto {
@@ -2151,7 +1829,7 @@ dl.list {
 .margin-top-small {
   margin-top: 8px; }
 
-.margin-top-medium {
+.margin-top-medium, .form .form-error, .form .form-success {
   margin-top: 12px; }
 
 .margin-top-large {
@@ -2187,13 +1865,13 @@ dl.list {
 .margin-left-auto {
   margin-left: auto; }
 
-.margin-bottom-xsmall {
+.margin-bottom-xsmall, .form .form-title {
   margin-bottom: 2px; }
 
-.margin-bottom-small {
+.margin-bottom-small, .form input[type=text], .form input[type=password], .form input[type=email], .form input[type=number], .form textarea, .form .form-input {
   margin-bottom: 8px; }
 
-.margin-bottom-medium {
+.margin-bottom-medium, .form .form-error, .form .form-success {
   margin-bottom: 12px; }
 
 .margin-bottom-large {
@@ -2287,27 +1965,27 @@ dl.list {
     .font-large, .md h2, .md h3 {
       font-size: 18px; } }
 
-.font-default, .form input[type=text], .form input[type=password], .form input[type=email], .form input[type=number], .form textarea, .form .form-input, .md h4, .md h5, .md.md-blank h1, .md.md-blank h2, .md.md-blank h3, .md.md-blank h4, .md.md-blank h5, .md.md-blank h6,
+.font-default, .md h4, .md h5, .md.md-blank h1, .md.md-blank h2, .md.md-blank h3, .md.md-blank h4, .md.md-blank h5, .md.md-blank h6,
 .md.md-blank p, .md.md-blank ul, .md.md-blank ol, .md.md-blank li {
   font-size: 18px;
   line-height: 150%; }
   @media screen and (max-width: 360px) {
-    .font-default, .form input[type=text], .form input[type=password], .form input[type=email], .form input[type=number], .form textarea, .form .form-input, .md h4, .md h5, .md.md-blank h1, .md.md-blank h2, .md.md-blank h3, .md.md-blank h4, .md.md-blank h5, .md.md-blank h6,
+    .font-default, .md h4, .md h5, .md.md-blank h1, .md.md-blank h2, .md.md-blank h3, .md.md-blank h4, .md.md-blank h5, .md.md-blank h6,
     .md.md-blank p, .md.md-blank ul, .md.md-blank ol, .md.md-blank li {
       font-size: 14px; } }
 
-.font-small, .form .form-title, .md p {
+.font-small, .form input[type=text], .form input[type=password], .form input[type=email], .form input[type=number], .form textarea, .form .form-input, .md p {
   font-size: 16px;
   line-height: 150%; }
   @media screen and (max-width: 360px) {
-    .font-small, .form .form-title, .md p {
+    .font-small, .form input[type=text], .form input[type=password], .form input[type=email], .form input[type=number], .form textarea, .form .form-input, .md p {
       font-size: 12px; } }
 
-.font-xsmall, .hljs {
+.font-xsmall, .form .form-title, .hljs {
   font-size: 13px;
   line-height: 150%; }
   @media screen and (max-width: 360px) {
-    .font-xsmall, .hljs {
+    .font-xsmall, .form .form-title, .hljs {
       font-size: 11px; } }
 
 /**
