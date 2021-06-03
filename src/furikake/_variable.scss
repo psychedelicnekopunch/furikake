@@ -26,11 +26,11 @@ $color-gray-90: #f7f8f9;
 $color-gray-80: #e9ecf2;
 $color-gray-70: #eee;
 $color-gray-60: #d2d8dd;
-$color-gray-50: #ccc;
-$color-gray-40: #aaa;
+$color-gray-50: #abc;
+$color-gray-40: #89a;
 $color-gray-30: #789;
 $color-gray-20: #5a6066;
-$color-gray-10: #444;
+$color-gray-10: #234;
 $color-gray-0: #012;
 
 
@@ -156,7 +156,8 @@ $card-border-radius: 3px;
 // _form.scss
 $input-bg-color: $color-gray-90;
 $input-font-color: $color-gray-10;
-$input-border: 0;
+$input-placeholder-color: $color-gray-50;
+$input-border: 1px $color-gray-70 solid;
 
 
 // _layout.scss

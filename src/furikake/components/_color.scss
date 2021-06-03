@@ -48,10 +48,10 @@ $colors: (
 
 
 	.color-#{$default}-link {
-		color: map-get($colors, $default);
-		&:hover, &:active {
-			color: map-get($colors, $action);
-		}
+		// color: map-get($colors, $default);
+		// &:hover, &:active {
+		// 	color: map-get($colors, $action);
+		// }
 		a {
 			color: map-get($colors, $default);
 			&:hover, &:active {
@@ -60,10 +60,10 @@ $colors: (
 		}
 	}
 	.bg-#{$default}-link {
-		background: map-get($colors, $default);
-		&:hover, &:active {
-			background: map-get($colors, $action);
-		}
+		// background: map-get($colors, $default);
+		// &:hover, &:active {
+		// 	background: map-get($colors, $action);
+		// }
 		a {
 			background: map-get($colors, $default);
 			&:hover, &:active {
@@ -91,11 +91,11 @@ $colors: (
 
 
 	.color-#{$default}-link-reverse {
-		color: map-get($colors, $default);
-		&:hover, &:active {
-			background: map-get($colors, $default);
-			color: $color-white;
-		}
+		// color: map-get($colors, $default);
+		// &:hover, &:active {
+		// 	background: map-get($colors, $default);
+		// 	color: $color-white;
+		// }
 		a {
 			color: map-get($colors, $default);
 			&:hover, &:active {
@@ -105,12 +105,12 @@ $colors: (
 		}
 	}
 	.bg-#{$default}-link-reverse {
-		background: map-get($colors, $default);
-		color: $color-white;
-		&:hover, &:active {
-			background: none;
-			color: map-get($colors, $default);
-		}
+		// background: map-get($colors, $default);
+		// color: $color-white;
+		// &:hover, &:active {
+		// 	background: none;
+		// 	color: map-get($colors, $default);
+		// }
 		a {
 			background: map-get($colors, $default);
 			color: $color-white;
