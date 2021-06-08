@@ -1,5 +1,5 @@
 <script>
-	const version = 'v0.0.5'
+	const version = 'v0.0.6'
 </script>
 
 <style lang="scss">
