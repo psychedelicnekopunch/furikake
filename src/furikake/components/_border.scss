@@ -1,0 +1,22 @@
+
+/**
+ * Border
+ *
+ */
+$borders: "border", "border-top", "border-left", "border-bottom", "border-right";
+$border-brightness: (
+	"light": $border-light,
+	"normal": $border-normal,
+	"dark": $border-dark,
+	"0": 0,
+);
+
+@each $border in $borders {
+	.#{$border} {
+		@each $key, $value in $border-brightness {
+			&-#{$key} {
+				#{$border}: $value;
+			}
+		}
+	}
+}
