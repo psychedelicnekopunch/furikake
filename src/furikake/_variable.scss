@@ -54,6 +54,17 @@ $font-xsmall-app  : 11px;
 
 
 /**
+ * _border.scss
+ *
+ */
+$border-light: 1px $color-gray-90 solid;
+$border-normal: 1px $color-gray-70 solid;
+$border-dark: 1px $color-gray-50 solid;
+
+
+
+
+/**
  * _button.scss
  *
  */
