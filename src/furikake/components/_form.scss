@@ -6,6 +6,8 @@
 		&[type=text],
 		&[type=password],
 		&[type=email],
+		&[type=url],
+		&[type=tel],
 		&[type=number] {
 			@extend .font-small;
 			@extend .padding-medium;
