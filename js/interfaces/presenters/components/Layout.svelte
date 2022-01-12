@@ -23,25 +23,23 @@
 	<header class="layout-header bg-dark-gray color-white-link padding-medium">
 		<Header didClick={ didClickHeaderBars }/>
 	</header>
-	<div class="layout-content layout-adjust-header layout-adjust-footer">
-		<div class="layout-column">
-			<div class="layout-column-sub bg-superlight-gray hide-mobile hide-tablet">
+	<div class="layout-column">
+		<div class="layout-column-sub-primary bg-superlight-gray hide-mobile hide-tablet">
+			<div class="layout-content">
 				<header class="layout-header padding-medium">
 					<div class="padding-medium bg-light-gray font-xsmall">
 						<Version/>
 					</div>
 				</header>
-				<div class="layout-content layout-adjust-header layout-adjust-footer">
-					<Nav category={ category } article={ article }/>
-				</div>
-				<footer class="layout-footer padding-small">
-					<SubFooter/>
-				</footer>
+				<Nav category={ category } article={ article }/>
 			</div>
-			<div class="layout-column-main">
-				<div class="layout-content layout-adjust-footer padding-medium">
-					<Article category={ category } article={ article }/>
-				</div>
+			<footer class="layout-footer padding-small">
+				<SubFooter/>
+			</footer>
+		</div>
+		<div class="layout-column-main">
+			<div class="layout-content">
+				<Article category={ category } article={ article }/>
 				<footer class="layout-footer padding-small">
 					<MainFooter/>
 				</footer>
