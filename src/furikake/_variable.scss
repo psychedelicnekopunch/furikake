@@ -162,6 +162,7 @@ $margin-xlarge: 48px;
 // _card.scss
 $card-box-shadow: 0 0 3px 0 rgba($color-gray-0, .3);
 $card-border-radius: 3px;
+$popup-card-header-height: 60px;
 
 
 // _form.scss
@@ -172,20 +173,10 @@ $input-border: 1px $color-gray-70 solid;
 
 
 // _layout.scss
-// $layout-width: 100%;
-// $layout-content-width: 1000px;
-// $layout-header-height: 50px;
-// $layout-footer-height: 35px;
-// $layout-column-main-header-height: 70px;
-// $layout-column-main-footer-height: 40px;
-// $layout-column-sub-header-height: 70px;
-// $layout-column-sub-footer-height: 40px;
-// $layout-column-sub-width: 250px;
-// $layout-paading: 27px 26px 30px;
-
+$layout-width: 100%;
 $layout-header-height: 50px;
 $layout-footer-height: 35px;
-$layout-content-width: 1000px;
+$layout-content-width: 100%;
 $layout-content-min-height: 300px;
 $layout-column-sub-primary-width: 200px;
 $layout-column-sub-secondary-width: 50px;
