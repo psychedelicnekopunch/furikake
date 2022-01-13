@@ -19,11 +19,11 @@
 
 </style>
 
-<div class="layout dashboard">
+<div class="layout dashboard bg-superdark-gray">
 	<header class="layout-header bg-dark-gray color-white-link padding-medium">
 		<Header didClick={ didClickHeaderBars }/>
 	</header>
-	<div class="layout-column">
+	<div class="layout-column bg-white">
 		<div class="layout-column-sub-primary bg-superlight-gray hide-mobile hide-tablet">
 			<div class="layout-content">
 				<header class="layout-header padding-medium">
