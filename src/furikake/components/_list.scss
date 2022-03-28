@@ -1,17 +1,18 @@
 ul.list {
 	> li {
-		
+
 	}
 }
 
 dl.list {
-	padding: 30px 0;
+	@extend .padding-top-large;
+	@extend .padding-bottom-large;
 	> dt {
+		@extend .padding-medium;
 		background: $color-light-gray;
-		padding: 10px;
-		// margin: 10px;
 	}
 	> dd {
-		margin: 10px;
+		@extend .margin-medium;
+		@extend .margin-bottom-xlarge;
 	}
 }

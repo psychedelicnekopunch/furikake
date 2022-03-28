@@ -160,8 +160,9 @@ $margin-xlarge: 48px;
  */
 
 // _card.scss
-$card-box-shadow: 0 0 3px 0 rgba($color-gray-0, .3);
-$card-border-radius: 3px;
+$card-box-shadow: 0 0 5px 0 rgba($color-gray-0, .08);
+$card-border-radius: 8px;
+$card-border: $border-dark;
 $popup-card-header-height: 60px;
 
 
