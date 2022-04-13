@@ -1,10 +1,13 @@
 /**
- * Global Variable
+ * variable
  *
  */
-/******
-Gray: Default
-******/
+/********************
+
+Gray Theme: Default
+
+********************/
+
 // $color-gray-100: #fff;
 // $color-gray-90: #f9f9f9;
 // $color-gray-80: #f2f2f2;
@@ -18,9 +21,14 @@ Gray: Default
 // $color-gray-0: #222;
 
 
-/******
-Gray: Blue
-******/
+
+
+/********************
+
+Gray Theme: Blue
+
+********************/
+
 $color-gray-100: #fff;
 $color-gray-90: #f7f8f9;
 $color-gray-80: #e9ecf2;
@@ -34,9 +42,38 @@ $color-gray-10: #234;
 $color-gray-0: #012;
 
 
-/******
+
+
+/********************
+
+Color
+
+********************/
+
+$color-light-red: #f9b;
+$color-red: #f79;
+
+$color-light-green: #9ca;
+$color-green: #7a8;
+
+$color-light-blue: #9ac;
+$color-blue: #78a;
+
+$color-light-purple: #b9b;
+$color-purple: #979;
+
+$color-light-orange: #ea7;
+$color-orange: #d85;
+
+
+
+
+/********************
+
 Font Size
-******/
+
+********************/
+
 $font-xlarge  : 36px;
 $font-large   : 24px;
 $font-default : 18px;
@@ -52,6 +89,85 @@ $font-xsmall-app  : 11px;
 
 
 
+/********************
+
+Line Height
+
+********************/
+
+$line-height: 150%;
+
+
+
+
+/********************
+
+Padding & Margin
+
+********************/
+
+
+$padding-xsmall: 2px;
+$padding-small: 8px;
+$padding-medium: 12px;
+$padding-large: 24px;
+$padding-xlarge: 48px;
+
+$margin-xsmall: 2px;
+$margin-small: 8px;
+$margin-medium: 12px;
+$margin-large: 24px;
+$margin-xlarge: 48px;
+
+
+
+
+/********************
+
+Border Radius
+
+********************/
+
+$border-radius-large: 24px;
+$border-radius-medium: 12px;
+$border-radius-small: 3px;
+
+
+
+
+/********************
+
+Layout Size
+
+********************/
+
+$layout-width: 100%;
+$layout-header-height: 50px;
+$layout-footer-height: 35px;
+$layout-content-width: 100%;
+$layout-content-min-height: 300px;
+$layout-column-sub-primary-width: 200px;
+$layout-column-sub-secondary-width: 50px;
+
+
+
+
+/********************
+
+Screen Size
+
+********************/
+
+$sp: 750px;
+
+
+
+
+/********************
+
+Other Components Setting
+
+********************/
 
 /**
  * _border.scss
@@ -60,10 +176,6 @@ $font-xsmall-app  : 11px;
 $border-light: 1px $color-gray-90 solid;
 $border-normal: 1px $color-gray-70 solid;
 $border-dark: 1px $color-gray-50 solid;
-
-$border-radius-large: 24px;
-$border-radius-medium: 12px;
-$border-radius-small: 3px;
 
 
 
@@ -103,113 +215,24 @@ $color-superdark-gray  : $color-gray-10;
 $color-black           : $color-gray-0;
 
 
-$color-light-red: #f9b;
-$color-red: #f79;
-
-$color-light-green: #9ca;
-$color-green: #7a8;
-
-$color-light-blue: #9ac;
-$color-blue: #78a;
-
-$color-light-purple: #b9b;
-$color-purple: #979;
-
-$color-light-orange: #ea7;
-$color-orange: #d85;
-
-
-
 
 
 /**
- * _spacing.scss
+ * _card.scss
  *
  */
-/******
-Padding
-******/
-$padding-xsmall: 2px;
-$padding-small: 8px;
-$padding-medium: 12px;
-$padding-large: 24px;
-$padding-xlarge: 48px;
-
-
-/******
-Margin
-******/
-$margin-xsmall: 2px;
-$margin-small: 8px;
-$margin-medium: 12px;
-$margin-large: 24px;
-$margin-xlarge: 48px;
-
-
-
-
-
-/**
- * Components
- *
- */
-
-// _card.scss
 $card-box-shadow: 0 0 5px 0 rgba($color-gray-0, .08);
 $card-border-radius: 8px;
 $card-border: $border-dark;
 $popup-card-header-height: 60px;
 
 
-// _form.scss
+
+/**
+ * _form.scss
+ *
+ */
 $input-bg-color: $color-gray-90;
 $input-font-color: $color-gray-10;
 $input-placeholder-color: $color-gray-50;
 $input-border: 1px $color-gray-70 solid;
-
-
-// _layout.scss
-$layout-width: 100%;
-$layout-header-height: 50px;
-$layout-footer-height: 35px;
-$layout-content-width: 100%;
-$layout-content-min-height: 300px;
-$layout-column-sub-primary-width: 200px;
-$layout-column-sub-secondary-width: 50px;
-
-
-
-
-/**
- * _text.scss
- *
- */
-
-// _font-size.scss
-$text-font-xlarge  : $font-xlarge;
-$text-font-large   : $font-large;
-$text-font-default : $font-default;
-$text-font-small   : $font-small;
-$text-font-xsmall  : $font-xsmall;
-
-$text-font-xlarge-app  : $font-xlarge-app;
-$text-font-large-app   : $font-large-app;
-$text-font-default-app : $font-default-app;
-$text-font-small-app   : $font-small-app;
-$text-font-xsmall-app  : $font-xsmall-app;
-
-$line-height: 150%;
-
-
-
-
-
-/**
- * includes
- *
- */
-
-// _media-query.scss
-$sp: 750px;
-$tablet: 680px;
-$mobile: 360px;

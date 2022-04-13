@@ -52,42 +52,42 @@
  */
 
 .font-xlarge {
-	font-size: $text-font-xlarge;
+	font-size: $font-xlarge;
 	line-height: $line-height;
 	@include sp {
-		font-size: $text-font-xlarge-app;
+		font-size: $font-xlarge-app;
 	}
 }
 
 .font-large {
-	font-size: $text-font-large;
+	font-size: $font-large;
 	line-height: $line-height;
 	@include sp {
-		font-size: $text-font-large-app;
+		font-size: $font-large-app;
 	}
 }
 
 .font-default, .font-medium {
-	font-size: $text-font-default;
+	font-size: $font-default;
 	line-height: $line-height;
 	@include sp {
-		font-size: $text-font-default-app;
+		font-size: $font-default-app;
 	}
 }
 
 .font-small {
-	font-size: $text-font-small;
+	font-size: $font-small;
 	line-height: $line-height;
 	@include sp {
-		font-size: $text-font-small-app;
+		font-size: $font-small-app;
 	}
 }
 
 .font-xsmall {
-	font-size: $text-font-xsmall;
+	font-size: $font-xsmall;
 	line-height: $line-height;
 	@include sp {
-		font-size: $text-font-xsmall-app;
+		font-size: $font-xsmall-app;
 	}
 }
 
@@ -97,5 +97,5 @@
  */
 
 p {
-	margin: 15px 0;
+	@extend .margin-bottom-large;
 }

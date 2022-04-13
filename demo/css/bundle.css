@@ -1,16 +1,57 @@
 /**
- * Global Variable
+ * variable
  *
  */
-/******
-Gray: Default
-******/
-/******
-Gray: Blue
-******/
-/******
+/********************
+
+Gray Theme: Default
+
+********************/
+/********************
+
+Gray Theme: Blue
+
+********************/
+/********************
+
+Color
+
+********************/
+/********************
+
 Font Size
-******/
+
+********************/
+/********************
+
+Line Height
+
+********************/
+/********************
+
+Padding & Margin
+
+********************/
+/********************
+
+Border Radius
+
+********************/
+/********************
+
+Layout Size
+
+********************/
+/********************
+
+Screen Size
+
+********************/
+/********************
+
+Other Components Setting
+
+********************/
 /**
  * _border.scss
  *
@@ -24,25 +65,11 @@ Font Size
  *
  */
 /**
- * _spacing.scss
- *
- */
-/******
-Padding
-******/
-/******
-Margin
-******/
-/**
- * Components
+ * _card.scss
  *
  */
 /**
- * _text.scss
- *
- */
-/**
- * includes
+ * _form.scss
  *
  */
 body, html {
@@ -2560,7 +2587,7 @@ dl.list > dt {
 .margin-bottom-medium, .form .form-error, .form .form-success {
   margin-bottom: 12px; }
 
-.margin-bottom-large, a.button, button.button, div.button {
+.margin-bottom-large, a.button, button.button, div.button, p {
   margin-bottom: 24px; }
 
 .margin-bottom-xlarge, dl.list > dd {
@@ -2677,6 +2704,4 @@ dl.list > dt {
 /**
  * Paragraph
  */
-p {
-  margin: 15px 0; }
 
