@@ -1,0 +1,26 @@
+.fas {
+	&.left {
+		@extend .padding-right-medium;
+	}
+	&.right {
+		@extend .padding-left-medium;
+	}
+}
+
+.fa-brands {
+	&.left {
+		@extend .padding-right-medium;
+	}
+	&.right {
+		@extend .padding-left-medium;
+	}
+}
+
+.fa-solid {
+	&.left {
+		@extend .padding-right-medium;
+	}
+	&.right {
+		@extend .padding-left-medium;
+	}
+}

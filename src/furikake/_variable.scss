@@ -61,6 +61,10 @@ $border-light: 1px $color-gray-90 solid;
 $border-normal: 1px $color-gray-70 solid;
 $border-dark: 1px $color-gray-50 solid;
 
+$border-radius-large: 24px;
+$border-radius-medium: 12px;
+$border-radius-small: 3px;
+
 
 
 
@@ -82,15 +86,6 @@ $button-default-bg: $color-gray-80;
 $button-default-bg-active: $color-gray-90;
 $button-default-color: $color-gray-10;
 $button-default-color-active: $color-gray-20;
-
-$button-font-large: $font-large;
-$button-font-medium: $font-default;
-$button-font-small: $font-xsmall;
-
-$button-font-large-app: $font-large-app;
-$button-font-medium-app: $font-default-app;
-$button-font-small-app: $font-xsmall-app;
-
 
 
 
@@ -215,5 +210,6 @@ $line-height: 150%;
  */
 
 // _media-query.scss
+$sp: 750px;
 $tablet: 680px;
 $mobile: 360px;

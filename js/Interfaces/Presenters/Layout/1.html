@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>furikake</title>
+	<link rel="stylesheet" href="/style.css">
+	<style type="text/css">
+		header {
+			background: #f66;
+		}
+		footer {
+			background: #66f;
+		}
+		.layout-main header {
+			background: #f44;
+		}
+		.layout-main footer {
+			background: #44f;
+		}
+		.layout-sub header {
+			background: #f99;
+		}
+		.layout-sub footer {
+			background: #99f;
+		}
+		.layout-sub {
+			background: #eee;
+		}
+		.layout-main {
+			background: #fff;
+		}
+	</style>
+</head>
+<body>
+	<div class="layout">
+		<header class="layout-header">
+			header
+		</header>
+		<div class="layout-content layout-content-calc-header layout-content-calc-footer">
+			<div class="layout-column">
+				<div class="layout-sub">
+					<header class="layout-header">
+						sub header
+					</header>
+					<div class="layout-content-scroll layout-content-calc-header layout-content-calc-footer">
+						<p style="height: 1000px">sub content</p>
+						<p>end</p>
+					</div>
+					<footer class="layout-footer">
+						sub footer
+					</footer>
+				</div>
+				<div class="layout-main">
+					<div class="layout-content-scroll layout-content-calc-footer">
+						<header class="layout-header">
+							main header
+						</header>
+						<p style="height: 1500px">main content</p>
+						<p>end</p>
+					</div>
+					<footer class="layout-footer">
+						main footer
+					</footer>
+				</div>
+			</div>
+		</div>
+		<footer class="layout-footer">
+			footer
+		</footer>
+	</div>
+</body>
+</html>

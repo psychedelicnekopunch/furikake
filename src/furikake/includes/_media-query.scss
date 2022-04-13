@@ -23,20 +23,16 @@
 		@content;
 	}
 }
-@mixin mobile {
-	@media screen and (max-width: $mobile) {
+
+
+@mixin sp {
+	@media screen and (max-width: $sp) {
 		@content;
 	}
 }
 
-@mixin tablet {
-	@media screen and (min-width: $mobile) and (max-width: $tablet) {
-		@content;
-	}
-}
-
-@mixin desktop {
-	@media screen and (min-width: $tablet) {
+@mixin pc {
+	@media screen and (min-width: $sp + 1) {
 		@content;
 	}
 }

@@ -1,10 +1,18 @@
 a.button, button.button, div.button {
 
+	@extend .border-radius-small;
+	@extend .border-0;
+	@extend .padding-large;
+	@extend .padding-top-medium;
+	@extend .padding-bottom-medium;
+	@extend .margin-small;
+	@extend .margin-top-large;
+	@extend .margin-bottom-large;
+
 	display: inline-block;
 	text-decoration: none;
-	border-radius: 3px;
-	border: 0;
 	cursor: pointer;
+
 
 	&.primary {
 		background: $button-primary-bg;
@@ -31,31 +39,46 @@ a.button, button.button, div.button {
 		}
 	}
 
+
 	&.large {
-		font-size: $button-font-large;
-		line-height: $line-height;
-		padding: 10px 15px;
-		margin: 12px 0;
+		@extend .font-large;
+		i {
+			@extend .font-large;
+		}
 	}
 	&.medium {
-		font-size: $button-font-medium;
-		line-height: $line-height;
-		padding: 10px 15px;
-		margin: 12px 0;
+		@extend .font-default;
+		i {
+			@extend .font-default;
+		}
 	}
 	&.small {
-		font-size: $button-font-small;
-		line-height: $line-height;
-		padding: 10px 15px;
-		margin: 12px 0;
+		@extend .font-xsmall;
+		i {
+			@extend .font-xsmall;
+		}
 	}
 
-	> i {
-		&.left {
-			padding-right: 8px;
-		}
-		&.right {
-			padding-left: 8px;
+
+	&.icon-left, &.icon-right {
+		position: relative;
+		i {
+			@extend .padding-medium;
+			top: 0;
+			position: absolute;
 		}
 	}
+	&.icon-left {
+	 	padding-left: $padding-large + $padding-medium;
+		i {
+			left: 0;
+		}
+	}
+	&.icon-right {
+		padding-right: $padding-large + $padding-medium;
+		i {
+			right: 0;
+		}
+	}
+
 }

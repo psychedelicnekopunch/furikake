@@ -1,16 +1,11 @@
 .hide {
-	&-mobile {
-		@include mobile {
+	&-pc {
+		@include pc {
 			display: none;
 		}
 	}
-	&-tablet {
-		@include tablet {
-			display: none;
-		}
-	}
-	&-desktop {
-		@include desktop {
+	&-sp {
+		@include sp {
 			display: none;
 		}
 	}

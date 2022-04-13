@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/psychedelicnekopunch/furikake#readme",
   "dependencies": {
+    "highlight.js": "^11.5.1",
     "page": "^1.11.6"
   }
 }

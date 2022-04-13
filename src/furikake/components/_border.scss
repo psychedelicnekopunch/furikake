@@ -7,6 +7,7 @@ $borders: "border", "border-top", "border-left", "border-bottom", "border-right"
 $border-brightness: (
 	"light": $border-light,
 	"normal": $border-normal,
+	"default": $border-normal,
 	"dark": $border-dark,
 	"0": 0,
 );
@@ -17,6 +18,22 @@ $border-brightness: (
 			&-#{$key} {
 				#{$border}: $value;
 			}
+		}
+	}
+}
+
+
+$border-radius: (
+	"large": $border-radius-large,
+	"medium": $border-radius-medium,
+	"small": $border-radius-small,
+	"0": 0,
+);
+
+.border-radius {
+	@each $key, $value in $border-radius {
+		&-#{$key} {
+			border-radius: $value;
 		}
 	}
 }

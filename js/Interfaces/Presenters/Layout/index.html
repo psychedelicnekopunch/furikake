@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Layout - furikake</title>
+	<link rel="stylesheet" href="/style.css">
+	<style media="all" rel="stylesheet">
+		table {
+			width: 100%;
+			max-width: 300px;
+			font-size: 12px;
+			line-height: 150%;
+		}
+		td {
+			padding: 12px;
+		}
+		.header {
+			background: #f66;
+		}
+		.main {
+			background: #eee;
+			height: 150px;
+		}
+		.footer {
+			background: #6f6;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">Source &gt;&gt;</a>
+				<table>
+					<tr>
+						<td class="header">Header</td>
+					</tr>
+					<tr>
+						<td class="main">Main</td>
+					</tr>
+					<tr>
+						<td class="footer">Footer</td>
+					</tr>
+				</table>
+			</li>
+			<li>
+				<a href="#">Source &gt;&gt;</a>
+				<table>
+					<tr>
+						<td class="header">Header</td>
+					</tr>
+					<tr>
+						<td class="sub">Sub</td>
+						<td class="main">Main</td>
+					</tr>
+					<tr>
+						<td class="footer">Footer</td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+	</nav>
+</body>
+</html>
