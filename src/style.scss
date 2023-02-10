@@ -1,4 +1,9 @@
 @charset "UTF-8";
 
+@import "furikake/stable/variable";
+// @import "furikake/ideas/variable";
+
 @import "variable";
-@import "furikake/all";
+
+@import "furikake/stable/all";
+// @import "furikake/ideas/all";

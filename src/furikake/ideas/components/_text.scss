@@ -1,0 +1,50 @@
+
+/**
+ * Headline
+ */
+
+.headline1,
+.headline2,
+.headline3,
+.headline4 {
+	background: none;
+	font-weight: normal;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.headline1 {
+	@extend .font-xlarge;
+	color: $color-black;
+	margin-bottom: $margin-large;
+}
+
+.headline2 {
+	background: $color-gray;
+	color: $color-dark-gray;
+	padding: $padding-medium;
+	margin-bottom: $margin-large;
+}
+
+.headline3 {
+	color: $color-dark-gray;
+	border-bottom: 1px $color-gray solid;
+	padding: $padding-xsmall;
+	margin-bottom: $margin-medium;
+}
+
+.headline4 {
+	color: $color-dark-gray;
+	border-bottom: 1px $color-gray solid;
+	padding: $padding-xsmall;
+	margin-bottom: $margin-medium;
+}
+
+/**
+ * Paragraph
+ */
+
+p {
+	@extend .margin-bottom-large;
+}

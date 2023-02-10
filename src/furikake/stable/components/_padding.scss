@@ -22,29 +22,3 @@ $padding-sizes: (
 		}
 	}
 }
-
-
-/**
- * Margin
- *
- */
-$margins: "margin", "margin-top", "margin-left", "margin-bottom", "margin-right";
-$margin-sizes: (
-	"xsmall": $margin-xsmall,
-	"small": $margin-small,
-	"medium": $margin-medium,
-	"large": $margin-large,
-	"xlarge": $margin-xlarge,
-	"0": 0,
-	"auto": auto,
-);
-
-@each $margin in $margins {
-	.#{$margin} {
-		@each $key, $value in $margin-sizes {
-			&-#{$key} {
-				#{$margin}: $value;
-			}
-		}
-	}
-}

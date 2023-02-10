@@ -1,0 +1,64 @@
+
+$colors: (
+	// gray
+	"superlight-gray": $color-superlight-gray,
+	"light-gray": $color-light-gray,
+	"gray": $color-gray,
+	"dark-gray": $color-dark-gray,
+	"superdark-gray": $color-superdark-gray,
+	// color
+	"primary": $color-primary,
+	"secondary": $color-secondary,
+	"text": $color-text,
+	"anchor": $color-anchor,
+	"success": $color-success,
+	"danegr": $color-danegr,
+	"light": $color-light,
+	"black": $color-black,
+	"white": $color-white,
+);
+
+
+@mixin color($color) {
+
+
+	.color-#{$color} {
+		color: map-get($colors, $color);
+	}
+	.bg-#{$color} {
+		background: map-get($colors, $color);
+	}
+
+
+	.color-#{$color}-light {
+		color: lighten(map-get($colors, $color), 10%);
+	}
+	.bg-#{$color}-light {
+		background: lighten(map-get($colors, $color), 10%);
+	}
+
+
+	.color-#{$color}-dark {
+		color: darken(map-get($colors, $color), 10%);
+	}
+	.bg-#{$color}-dark {
+		background: darken(map-get($colors, $color), 10%);
+	}
+}
+
+
+@include color("superlight-gray");
+@include color("light-gray");
+@include color("gray");
+@include color("dark-gray");
+@include color("superdark-gray");
+
+@include color("primary");
+@include color("secondary");
+@include color("text");
+@include color("anchor");
+@include color("success");
+@include color("danegr");
+@include color("light");
+@include color("black");
+@include color("white");

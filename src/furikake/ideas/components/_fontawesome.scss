@@ -7,6 +7,15 @@
 	}
 }
 
+.fab {
+	&.left {
+		@extend .padding-right-medium;
+	}
+	&.right {
+		@extend .padding-left-medium;
+	}
+}
+
 .fa-brands {
 	&.left {
 		@extend .padding-right-medium;

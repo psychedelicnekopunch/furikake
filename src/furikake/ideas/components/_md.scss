@@ -18,10 +18,10 @@
 		color: $color-superdark-gray;
 	}
 	h4 {
-		@extend .font-default;
+		@extend .font-medium;
 	}
 	h5 {
-		@extend .font-default;
+		@extend .font-medium;
 	}
 	p {
 		@extend .font-small;
@@ -52,7 +52,7 @@
 	&.md-blank {
 		h1, h2, h3, h4, h5, h6,
 		p, ul, ol, li {
-			@extend .font-default;
+			@extend .font-medium;
 			font-size: unset;
 			display: inline;
 			color: unset;

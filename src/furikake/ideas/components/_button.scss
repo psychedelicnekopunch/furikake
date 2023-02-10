@@ -47,9 +47,9 @@ a.button, button.button, div.button {
 		}
 	}
 	&.medium {
-		@extend .font-default;
+		@extend .font-medium;
 		i {
-			@extend .font-default;
+			@extend .font-medium;
 		}
 	}
 	&.small {

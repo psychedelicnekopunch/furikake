@@ -1,0 +1,14 @@
+
+$box-shadows: (
+	"strong": $border-light,
+	"medium": $border-medium,
+	"weak": $border-dark,
+);
+
+.box-shadow {
+	@each $key, $value in $box-shadows {
+		&-#{$key} {
+			box-shadow: $value;
+		}
+	}
+}

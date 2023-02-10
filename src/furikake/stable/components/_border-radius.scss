@@ -1,0 +1,45 @@
+
+$border-radius-type: (
+	"circle": 10000px,
+	"ellipse": 50%,// 楕円 (だえん)
+	"large": $border-radius-large,
+	"medium": $border-radius-medium,
+	"small": $border-radius-small,
+	"0": 0,
+);
+
+.border-radius {
+	@each $key, $value in $border-radius-type {
+		&-#{$key} {
+			border-radius: $value;
+		}
+		&-top-#{key} {
+			border-top-left-radius: $value;
+			border-top-right-radius: $value;
+		}
+		&-left-#{key} {
+			border-top-left-radius: $value;
+			border-bottom-left-radius: $value;
+		}
+		&-right-#{key} {
+			border-top-right-radius: $value;
+			border-bottom-right-radius: $value;
+		}
+		&-bottom-#{key} {
+			border-bottom-right-radius: $value;
+			border-bottom-left-radius: $value;
+		}
+		&-top-left-#{key} {
+			border-top-left-radius: $value;
+		}
+		&-top-right-#{key} {
+			border-top-right-radius: $value;
+		}
+		&-bottom-left-#{key} {
+			border-bottom-left-radius: $value;
+		}
+		&-bottom-right-#{key} {
+			border-bottom-right-radius: $value;
+		}
+	}
+}
