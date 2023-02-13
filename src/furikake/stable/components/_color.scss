@@ -12,7 +12,7 @@ $colors: (
 	"text": $color-text,
 	"anchor": $color-anchor,
 	"success": $color-success,
-	"danegr": $color-danegr,
+	"danger": $color-danger,
 	"light": $color-light,
 	"black": $color-black,
 	"white": $color-white,
@@ -21,28 +21,36 @@ $colors: (
 
 @mixin color($color) {
 
-
 	.color-#{$color} {
 		color: map-get($colors, $color);
 	}
 	.bg-#{$color} {
 		background: map-get($colors, $color);
 	}
+	.border-color-#{$color} {
+		border-color: map-get($colors, $color);
+	}
 
 
 	.color-#{$color}-light {
-		color: lighten(map-get($colors, $color), 10%);
+		color: lighten(map-get($colors, $color), 15%);
 	}
 	.bg-#{$color}-light {
-		background: lighten(map-get($colors, $color), 10%);
+		background: lighten(map-get($colors, $color), 15%);
+	}
+	.border-color-#{$color}-light {
+		border-color: lighten(map-get($colors, $color), 15%);
 	}
 
 
 	.color-#{$color}-dark {
-		color: darken(map-get($colors, $color), 10%);
+		color: darken(map-get($colors, $color), 15%);
 	}
 	.bg-#{$color}-dark {
-		background: darken(map-get($colors, $color), 10%);
+		background: darken(map-get($colors, $color), 15%);
+	}
+	.border-color-#{$color}-dark {
+		border-color: darken(map-get($colors, $color), 15%);
 	}
 }
 
@@ -58,7 +66,7 @@ $colors: (
 @include color("text");
 @include color("anchor");
 @include color("success");
-@include color("danegr");
+@include color("danger");
 @include color("light");
 @include color("black");
 @include color("white");
