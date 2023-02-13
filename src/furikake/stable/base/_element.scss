@@ -1,12 +1,20 @@
-input[type=radio],
-input[type=checkbox],
+// input[type=radio],
+// input[type=checkbox],
 
 body, html {
+	@extend .font-medium;
+	@extend .color-text;
 	letter-spacing: 0.05em;
 }
 
 a {
+	@extend .color-anchor;
 	cursor: pointer;
+	text-decoration: none;
+	&:hover {
+		@extend .color-anchor-light;
+		text-decoration: underline;
+	}
 }
 
 button {
