@@ -1,16 +1,16 @@
 
 .align {
-	&.center {
+	&-center {
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	&.left {
+	&-left {
 		text-align: left;
 		margin-left: 0;
 		margin-right: auto;
 	}
-	&.right {
+	&-right {
 		text-align: right;
 		margin-left: auto;
 		margin-right: 0;

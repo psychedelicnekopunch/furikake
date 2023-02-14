@@ -1,0 +1,13 @@
+
+.flex {
+	&-column {
+		&-top {
+			display: flex;
+			align-items: top;
+		}
+		&-center {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
