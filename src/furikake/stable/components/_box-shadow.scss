@@ -1,8 +1,8 @@
 
 $box-shadows: (
-	"strong": $border-light,
-	"medium": $border-medium,
-	"weak": $border-dark,
+	"strong": $box-shadow-strong,
+	"medium": $box-shadow-medium,
+	"weak": $box-shadow-weak,
 );
 
 .box-shadow {
